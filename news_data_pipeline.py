@@ -4,6 +4,8 @@ import time
 import os
 import json
 
+urls = []
+
 API_KEY = os.getenv("NEWS_DATA_API_KEY")
 print(API_KEY)
 site = "https://newsdata.io/api/1/latest"
@@ -25,7 +27,7 @@ print(resp.json())
 print(resp.json()['totalResults'])
 print(resp.json()['results'])
 
-print()
+articles = resp.json()['results']
 
 with open('test_news_data.txt', 'w') as f1:
 

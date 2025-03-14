@@ -4,6 +4,8 @@ import time
 import os
 import json
 
+urls = []
+
 API_KEY = os.getenv("NEWS_API_KEY")
 site = "https://newsapi.org/v2/everything"
 
@@ -25,9 +27,17 @@ print()
 
 articles = resp.json()['articles']
 
-with open('test.txt', 'w') as f1:
+for i in articles:
 
-    json.dump(resp.json()['articles'], f1, indent=4)
+    print(i['url'])
+    urls.append(i['url'])
+
+print(urls)
+print(len(urls))
+
+# with open('test.txt', 'w') as f1:
+#
+#     json.dump(resp.json()['articles'], f1, indent=4)
 
 
 
