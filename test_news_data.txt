@@ -1,0 +1,342 @@
+[
+    {
+        "article_id": "52cf3b755f58a4be212a365563920c31",
+        "title": "DWP Universal Credit and benefits 'cuts' fear as chancellor gives update",
+        "link": "https://www.cambridge-news.co.uk/news/cost-of-living/dwp-universal-credit-benefits-cuts-31197920",
+        "keywords": [
+            "cost of living"
+        ],
+        "creator": [
+            "newsdesk@cambridge-news.co.uk (Steven Smith)"
+        ],
+        "video_url": null,
+        "description": "Rachel Reeves said the 'broken' system needed reform, but some are worried about vulnerable people",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2025-03-14 09:21:31",
+        "pubDateTZ": "UTC",
+        "image_url": "https://i2-prod.birminghammail.co.uk/incoming/article31197937.ece/ALTERNATES/s615/0_featureimage.jpg",
+        "source_id": "cambridgenews",
+        "source_priority": 147440,
+        "source_name": "Cambridgeshire Live",
+        "source_url": "https://www.cambridge-news.co.uk",
+        "source_icon": "https://i.bytvi.com/domain_icons/cambridgenews.png",
+        "language": "english",
+        "country": [
+            "united kingdom"
+        ],
+        "category": [
+            "top"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+    },
+    {
+        "article_id": "9910109d3c6a97232026fcf66ca80112",
+        "title": "Ojelabi, clerics extols Tinubu\u2019s leadership qualities at Ramadan",
+        "link": "https://nationaldailyng.com/ojelabi-clerics-extols-tinubus-leadership-qualities-at-ramadan/",
+        "keywords": [
+            "news"
+        ],
+        "creator": [
+            "Olu Emmanuel"
+        ],
+        "video_url": null,
+        "description": "The Lagos State All Progressives Congress (APC) Chairman Pastor Cornelius Ojelabi, Islamic scholars have enjoined Nigerians to pray for President Bola Ahmed Tinubu, as he makes efforts to salvage the nation\u2019s hitherto dwindling economy. Speaking at Lagos state APC second Ramadan Public Lecture held on Thursday in the party\u2019s secretariat, Ojelabi cited President Tinubu\u2019s commitment, [...]The post Ojelabi, clerics extols Tinubu\u2019s leadership qualities at Ramadan appeared first on National Daily Newspaper.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2025-03-14 09:21:29",
+        "pubDateTZ": "UTC",
+        "image_url": "https://nationaldailyng.com/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-14-at-09.48.44.jpeg",
+        "source_id": "nationaldailyng",
+        "source_priority": 1671475,
+        "source_name": "National Daily Newspaper",
+        "source_url": "https://nationaldailyng.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/nationaldailyng.png",
+        "language": "english",
+        "country": [
+            "nigeria"
+        ],
+        "category": [
+            "top"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+    },
+    {
+        "article_id": "883a7201c0c03d38a3f9ccd32d1680d7",
+        "title": "UK economy shrinks in first month of 2025 in setback for Rachel Reeves",
+        "link": "https://www.thenational.scot/news/25007478.uk-economy-shrinks-first-month-2025/",
+        "keywords": null,
+        "creator": null,
+        "video_url": null,
+        "description": "The UK economy has shrunk in the first month of 2025 in a setback for Chancellor Rachel Reeves ...",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2025-03-14 09:21:13",
+        "pubDateTZ": "UTC",
+        "image_url": "https://www.thenational.scot/resources/images/18677663/?htype=0&type=app",
+        "source_id": "thenational_scot",
+        "source_priority": 94802,
+        "source_name": "Thenational Scot",
+        "source_url": "https://www.thenational.scot",
+        "source_icon": "https://i.bytvi.com/domain_icons/thenational_scot.png",
+        "language": "english",
+        "country": [
+            "united kingdom"
+        ],
+        "category": [
+            "top"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+    },
+    {
+        "article_id": "518b1de15a6a1669045b48edcc3f07dd",
+        "title": "China, Russia and Iran call for end to US sanctions on Iran and the restart of nuclear talks",
+        "link": "https://timesofindia.indiatimes.com/world/china/china-russia-and-iran-call-for-end-to-us-sanctions-on-iran-and-the-restart-of-nuclear-talks/articleshow/119009180.cms",
+        "keywords": null,
+        "creator": null,
+        "video_url": null,
+        "description": "China, Russia, and Iran urged the end of US sanctions on Iran's nuclear program and called for renewed multinational talks. They emphasized diplomatic engagement and mutual respect. The US imposed new sanctions while holding out hope for a deal. Iran's nuclear program advances, raising tensions, while its economy suffers under US sanctions.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2025-03-14 09:20:20",
+        "pubDateTZ": "UTC",
+        "image_url": "https://static.toiimg.com/thumb/msid-119009469,width-1070,height-580,imgsize-1039452,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "source_id": "toi",
+        "source_priority": 239,
+        "source_name": "The Times Of India",
+        "source_url": "https://timesofindia.indiatimes.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/toi.png",
+        "language": "english",
+        "country": [
+            "india"
+        ],
+        "category": [
+            "top"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": true
+    },
+    {
+        "article_id": "00751c87059a66d6dd40c08dab06a511",
+        "title": "White Lotus in the jungle",
+        "link": "https://gazette.com/news/wex/white-lotus-in-the-jungle/article_c2d72728-1ac1-5158-83fb-dede552212c5.html",
+        "keywords": null,
+        "creator": [
+            "Joe Joyce, Washington Examiner"
+        ],
+        "video_url": null,
+        "description": "I am a writer in Los Angeles, which is just a sidelong way of saying I still have roommates as I approach 30. I\u2019m lucky in that it\u2019s a largely frictionless affair, though the television is far too communal for...",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2025-03-14 09:20:00",
+        "pubDateTZ": "UTC",
+        "image_url": "https://bloximages.newyork1.vip.townnews.com/gazette.com/content/tncms/assets/v3/media/4/10/410a08be-b8ee-11ef-b008-db665c54b863/675b8832725eb.image.png?crop=952%2C500%2C35%2C0",
+        "source_id": "gazette",
+        "source_priority": 9587,
+        "source_name": "Gazette",
+        "source_url": "https://gazette.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/gazette.png",
+        "language": "english",
+        "country": [
+            "united states of america"
+        ],
+        "category": [
+            "world"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+    },
+    {
+        "article_id": "68e506c4b8744141e16330ee31680115",
+        "title": "'You must be ashamed': EFF MPs slam deputy minister Hendricks for 'using AI to answer parly questions'",
+        "link": "https://www.sowetanlive.co.za/news/2025-03-14-you-must-be-ashamed-eff-mps-slam-deputy-minister-hendricks-for-using-ai-to-answer-parly-questions/",
+        "keywords": null,
+        "creator": [
+            "nkadimengm@timeslive.co.za (Innocentia Nkadimeng)"
+        ],
+        "video_url": null,
+        "description": "EFF MPs have criticised social development deputy minister Ganief Hendricks for allegedly using artificial intelligence to answer parliamentary questions.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2025-03-14 09:18:30",
+        "pubDateTZ": "UTC",
+        "image_url": null,
+        "source_id": "sowetanlive",
+        "source_priority": 217145,
+        "source_name": "Sowetanlive",
+        "source_url": "https://www.sowetanlive.co.za",
+        "source_icon": "https://i.bytvi.com/domain_icons/sowetanlive.png",
+        "language": "english",
+        "country": [
+            "south africa"
+        ],
+        "category": [
+            "top"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": true
+    },
+    {
+        "article_id": "d2cd51b1153909f519f304fdf61e8e0d",
+        "title": "Sewage Scandal: Britain's Coastal Waters Under Siege",
+        "link": "https://www.devdiscourse.com/article/headlines/3307587-sewage-scandal-britains-coastal-waters-under-siege",
+        "keywords": null,
+        "creator": null,
+        "video_url": null,
+        "description": "Sewage Scandal: Britain's Coastal Waters Under Siege In the murky waters off the coast of southern England, the Holmyard family's mussel farm faces environmental challenges seemingly insurmountable. Despite moving Europe's largest offshore mussel farm to Lyme Bay to avoid pollution, harmful bacteria persist, blocking exports and posing significant threats to Britain\u2019s shellfish industry.Interviews with industry insiders reveal widespread issues, as sewage pollutants disrupt not only seafood production but also tourism and construction. The surge in sewage discharges, exacerbated by aging infrastructure, has led to public outcry and regulatory scrutiny, impacting various sectors of the British economy.Sewage pollution has triggered legal and economic challenges for shellfish farmers post-Brexit, with stringent EU import regulations and poor water quality limiting export potential. Campaigners for clean water demand government action, urging systemic reforms to avert long-term ecological and economic damage.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2025-03-14 09:18:20",
+        "pubDateTZ": "UTC",
+        "image_url": "https://devdiscourse.blob.core.windows.net/imagegallery/27_06_2019_15_04_39_4075153.png",
+        "source_id": "devdiscourse",
+        "source_priority": 566021,
+        "source_name": "Devdiscourse",
+        "source_url": "https://www.devdiscourse.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/devdiscourse.jpg",
+        "language": "english",
+        "country": [
+            "india"
+        ],
+        "category": [
+            "top"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+    },
+    {
+        "article_id": "ff0d2aa98a307e350d2f8edfcd221d41",
+        "title": "Palestinian Women Face Exploitation in Israeli Illegal Settlements",
+        "link": "https://tn.ai/3275016",
+        "keywords": [
+            "world"
+        ],
+        "creator": null,
+        "video_url": null,
+        "description": "TEHRAN (Tasnim) - A new report by Oxfam has revealed the difficult conditions faced by Palestinian women working in illegal Israeli settlements in the occupied West Bank.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2025-03-14 09:18:02",
+        "pubDateTZ": "UTC",
+        "image_url": "https://newsmedia.tasnimnews.com/Tasnim/Uploaded/Image/1403/12/24/1403122410312898932369044.jpg",
+        "source_id": "tasnimnews",
+        "source_priority": 39844,
+        "source_name": "U062eu0628u0631u06afu0632u0627u0631u06cc U062au063",
+        "source_url": "https://www.tasnimnews.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/tasnimnews.png",
+        "language": "english",
+        "country": [
+            "iran"
+        ],
+        "category": [
+            "world"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+    },
+    {
+        "article_id": "2806bed09f0945d631bb7a2db4241a3a",
+        "title": "Shrinking economy offers unhelpful backdrop for Rachel Reeves\u2019s growth push",
+        "link": "https://www.theguardian.com/business/2025/mar/14/gdp-shrinking-economy-rachel-reeves-growth-plans-analysis",
+        "keywords": [
+            "economic policy",
+            "uk news",
+            "business",
+            "office for national statistics",
+            "rachel reeves",
+            "economic growth (gdp)",
+            "office for budget responsibility",
+            "economics"
+        ],
+        "creator": [
+            "Heather Stewart Economics editor"
+        ],
+        "video_url": null,
+        "description": "GDP goes in wrong direction as chancellor puts final touches to fiscal plansUK economy shrinks unexpectedly in blow to ReevesBusiness live \u2013 latest updatesFor a government that has made growth its overriding mission, the 0.1% decline in GDP in January signalled by the Office for National Statistics will be depressing news.As Rachel Reeves prepares to announce her spring statement on 26 March, the economy appears to be going in the wrong direction \u2013 underlining the fact that the Office for Budget Responsibility is likely to have presented her with notably weaker forecasts than in October. Continue reading...",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2025-03-14 09:17:27",
+        "pubDateTZ": "UTC",
+        "image_url": "https://i.guim.co.uk/img/media/3c21ec0f0b3f5f8d4ce8d9038a1de4ea3eb8b0c4/468_106_2721_1633/master/2721.jpg?auto=format&enable=upscale&fit=crop&height=630&overlay-align=bottom%2Cleft&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&overlay-width=100p&quality=85&s=a9800753f28c1eb611b4705fc8b53d46&width=1200",
+        "source_id": "theguardian",
+        "source_priority": 106,
+        "source_name": "The Guardian",
+        "source_url": "https://www.theguardian.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/theguardian.jpg",
+        "language": "english",
+        "country": [
+            "united kingdom",
+            "india",
+            "singapore",
+            "canada"
+        ],
+        "category": [
+            "business"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": true
+    },
+    {
+        "article_id": "b583a9aaf59ac990976f313f1c1eceea",
+        "title": "Shrinking economy offers unhelpful backdrop for Rachel Reeves\u2019s growth push",
+        "link": "https://uk.finance.yahoo.com/news/shrinking-economy-offers-unhelpful-backdrop-091727951.html",
+        "keywords": null,
+        "creator": [
+            "The Guardian"
+        ],
+        "video_url": null,
+        "description": null,
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2025-03-14 09:17:27",
+        "pubDateTZ": "UTC",
+        "image_url": null,
+        "source_id": "yahoo",
+        "source_priority": 17,
+        "source_name": "Yahoo! News",
+        "source_url": "https://news.yahoo.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/yahoo.png",
+        "language": "english",
+        "country": [
+            "united kingdom"
+        ],
+        "category": [
+            "business"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+    }
+]

@@ -1,0 +1,1302 @@
+[
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Afghanistan\u2019s Taliban makes debut diplomatic trip to Japan",
+        "description": "Delegation says Taliban seeks 'dignified' global interaction as it builds 'strong' and 'developed' Afghanistan.",
+        "url": "https://www.aljazeera.com/news/2025/2/17/afghanistans-taliban-makes-debut-diplomatic-trip-to-japan",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20240911__36G34C6__v1__HighRes__TurkmenistanAfghanistanPakistanIndiaEnergy-1739776816.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-17T08:08:37Z",
+        "content": "A Taliban delegation has arrived in Japan on what is the first visit by the group that rules Afghanistan, according to media in the East Asian country.\r\nThe delegation, consisting of foreign affairs,\u2026 [+2211 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": null,
+        "title": "With an ailing economy, is China a stable global player?",
+        "description": "Chinese leaders have unveiled their plans to revive the economy during the National People\u2019s Congress.",
+        "url": "https://www.aljazeera.com/program/counting-the-cost/2025/3/12/with-an-ailing-economy-is-china-a-stable-global-player",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/china-national-congress-xi-jinping-clean-1741796409.jpg?resize=1920%2C1080&quality=80",
+        "publishedAt": "2025-03-12T16:20:19Z",
+        "content": "Chinese leaders have unveiled their plans to revive the economy during the National Peoples Congress.Confidence in the economy and projecting China as a stable global player, despite serious economic\u2026 [+484 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": null,
+        "title": "With an ailing economy, is China a stable global player?",
+        "description": "Chinese leaders have unveiled their plans to revive the economy during the National People\u2019s Congress.",
+        "url": "https://www.aljazeera.com/program/counting-the-cost/2025/3/13/with-an-ailing-economy-is-china-a-stable-global-player",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/image-1741872627.jpg?resize=1920%2C1080&quality=80",
+        "publishedAt": "2025-03-13T15:00:00Z",
+        "content": "Chinese leaders have unveiled their plans to revive the economy during the National Peoples Congress.Confidence in the economy and projecting China as a stable global player, despite serious economic\u2026 [+484 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Andy Hirschfeld",
+        "title": "Even as US slashes jobs, \u2018it is the calm before the storm\u2019, economists warn",
+        "description": "An upcoming trade war and more DOGE job cuts will hammer the US economy, economists warn.",
+        "url": "https://www.aljazeera.com/economy/2025/3/11/even-as-us-slashes-jobs-it-is-the-calm-before-the-storm-economists-warn",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AFP__20250303__36ZA3DT__v1__Preview__UsPresidentTrumpMakesAnInvestmentAnnouncement-1741075538.jpg?resize=1200%2C630",
+        "publishedAt": "2025-03-11T15:56:14Z",
+        "content": "The first major set of economic reports last week reflect the state of the United States economy during President Donald Trumps first full month in office. The data reveal a spike in layoffs and slow\u2026 [+11397 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Russia-Ukraine war: List of key events, day 1,104",
+        "description": "These are the key developments on day 1,104 of Russia\u2019s war on Ukraine.",
+        "url": "https://www.aljazeera.com/news/2025/3/4/russia-ukraine-war-list-of-key-events-day-1104",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-03-04T002002Z_1371855074_RC2Z5DAK3H3X_RTRMADP_3_UKRAINE-CRISIS-ATTACK-ODESA-1741070982.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-04T07:40:39Z",
+        "content": "Here is the situation on Tuesday, March 4:\r\nFighting\r\n<ul><li>Ukraines military said it destroyed 46 of 83 Russian drones launched at the country overnight. Another 31 drones were reportedly lost and\u2026 [+5232 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Russia-Ukraine war: List of key events \u2013 day 1,087",
+        "description": "Here are the key developments on the 1,087th day of Russia\u2019s full-scale invasion of Ukraine.",
+        "url": "https://www.aljazeera.com/news/2025/2/15/russia-ukraine-war-list-of-key-events-day-18",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-15T005831Z_1816996786_RC2R2W7PTW8R_RTRMADP_3_UKRAINE-CRISIS-RUSSIA-VILLAGES-1739585382.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-15T04:25:19Z",
+        "content": "Here is the situation on Saturday, February 15:\r\nFighting\r\n<ul><li>Ukrainian President Volodymyr Zelenskyy said a Russian drone hit a confinement structure built to contain radiation at the Chornobyl\u2026 [+3121 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Maziar Motamedi",
+        "title": "Iran\u2019s Zarif resigns amid political wrangling over economic woes",
+        "description": "The ex-foreign minister was the face of reformist-backed talks with global powers that led to Iran\u2019s 2015 nuclear deal.",
+        "url": "https://www.aljazeera.com/news/2025/3/3/irans-zarif-resigns-amid-political-wrangling-over-economic-woes",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-01-22T124510Z_1612120786_RC2ZECAD1J9W_RTRMADP_3_DAVOS-MEETING-IRAN-1740999977.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-03T12:52:25Z",
+        "content": "Tehran, Iran Mohammad Javad Zarif, strategic foreign policy adviser to Irans president and a prominent figure advocating for talks with the West, has again resigned amid fierce pushback from hardline\u2026 [+6647 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": null,
+        "title": "Can Trump reach a nuclear deal with Tehran?",
+        "description": "Iran's top leader says he refuses to negotiate under pressure.",
+        "url": "https://www.aljazeera.com/program/inside-story/2025/3/9/can-trump-reach-a-nuclear-deal-with-tehran",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/image-1741549997.jpg?resize=1920%2C1061&quality=80",
+        "publishedAt": "2025-03-09T20:16:22Z",
+        "content": "Irans top leader says he refuses to negotiate under pressure.United States President Donald Trump wants a deal with Iran over its nuclear programme.\r\nHe has reached out for talks while also tightenin\u2026 [+634 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Maximilian Hess",
+        "title": "Trump\u2019s tariffs may end up blowing up the US dollar hegemony",
+        "description": "Some of the US president's most daring MAGA policies may inflict irreparable harm to the US economy.",
+        "url": "https://www.aljazeera.com/opinions/2025/3/13/trumps-tariffs-may-end-up-blowing-up-the-us-dollar-hegemony",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/RC2HBDAKJPXI-1741868343.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-13T12:23:12Z",
+        "content": "United States President Donald Trumps second term in office has launched with a whirlwind of changes to the status quo in Washington, DC, and to US relations with the world.\r\nThe rapid pace of depart\u2026 [+7827 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Russia-Ukraine war: List of key events \u2013 day 1,098",
+        "description": "Here are the key developments on the 1,098th day of Russia\u2019s full-scale invasion of Ukraine.",
+        "url": "https://www.aljazeera.com/news/2025/2/26/russia-ukraine-war-list-of-key-events-day-1098",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20250225__36YH99N__v1__HighRes__UkraineRussiaConflictWar-1740551053_6d6511-1740551205.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-02-26T06:50:34Z",
+        "content": "Here is the situation on Tuesday, February 25:\r\nFighting\r\n<ul><li>Kyivs Regional Governor Mykola Kalashnyk said Russian attacks injured a 19-year-old woman and set a residential house on fire in the \u2026 [+3097 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Walid Marrouch",
+        "title": "What\u2019s happening with Lebanon\u2019s economy and will it recover?",
+        "description": "Lebanon's economy has struggled for years as people's discontent with the government grew.",
+        "url": "https://www.aljazeera.com/news/2025/3/10/whats-happening-with-lebanons-economy-and-will-it-recover",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/10/Lebanon-1730388591.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-10T11:44:43Z",
+        "content": "Lebanons economy has been on a turbulent journey in recent years, with a triple crisis affecting its banking sector, economy, and currency.\r\nIsraels recent war on the country only intensified the cha\u2026 [+6819 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "John T Psaropoulos",
+        "title": "US switches stance on Ukraine war, seeking $500bn in payback",
+        "description": "A war of words has broken out between Trump and Zelenskyy, while Europe feels the US is no longer a dependable ally.",
+        "url": "https://www.aljazeera.com/news/2025/2/20/us-switches-stance-on-ukraine-war-seeking-500bn-in-payback",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AP25015602624892-1739795002_aca113-1739795071.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-02-20T18:03:23Z",
+        "content": "Ukraines diplomatic situation was upended during the past week, as its main ally, the United States, reversed several positions.\r\nUS President Donald Trump announced on February 12 that he was beginn\u2026 [+7002 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Peter Yeung",
+        "title": "\u2018We just want peace\u2019: A pacifist community amid Ethiopia\u2019s Amhara conflict",
+        "description": "For two years, Awra Amba has been caught up in a war raging between Fano fighters and Ethiopian government soldiers.",
+        "url": "https://www.aljazeera.com/features/2025/3/10/we-just-want-peace-a-pacifist-community-amid-ethiopias-amhara-conflict",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/Villagers-in-Awra-Amba-1741103973.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-10T08:29:40Z",
+        "content": "Awra Amba, Ethiopia Aregash Nuru pointed at the rolling green landscape in Ethiopias central Amhara region. We used to watch sunset from the hills, she said with a sigh. But no more.\r\nThese days, it \u2026 [+8609 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Hanna Duggal, Marium Ali",
+        "title": "Mapping Ukraine\u2019s rare earth and critical minerals",
+        "description": "Ukraine holds deposits of 22 out of 34 minerals the EU classifies as critical. Many are in parts controlled by Russia.",
+        "url": "https://www.aljazeera.com/news/2025/2/28/mapping-ukraines-rare-earth-and-critical-minerals",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/INTERACTIVE-UKRAINE-RARE-MINERALS-cover-FEB27-2025-copy-2-1740694419.png?resize=1200%2C630",
+        "publishedAt": "2025-02-28T06:02:40Z",
+        "content": "Ukrainian President Volodymyr Zelenskyy is set to sign a deal with US President Donald Trump on Friday that would allow the United States access to the Eastern European nations vast reserves of criti\u2026 [+5521 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Stan Chu Ilo",
+        "title": "Centring the voiceless: Pope Francis\u2019s enduring global impact",
+        "description": "Pontiff's message of peace and fraternity has challenged the rising tide of nativism, violence and global inequality.",
+        "url": "https://www.aljazeera.com/opinions/2025/2/25/centring-the-voiceless-pope-franciss-enduring-global-impact",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/12/doc-36pr7ra-1735575467.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-25T10:21:55Z",
+        "content": "According to Father Gabriel Romanelli, the parish priest of the Church of the Holy Family in Gaza, Pope Francis has been checking up on the long-suffering people of Gaza even from his hospital bed in\u2026 [+8800 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "German parties agree to loosen fiscal rules to overhaul military, economy",
+        "description": "Germany's Merz says the CDU/CSU and SPD will submit a motion to the Bundestag lower house of parliament next week.",
+        "url": "https://www.aljazeera.com/news/2025/3/5/german-parties-agree-to-loosen-fiscal-rules-to-overhaul-military-economy",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AP25054651059689-1740369905.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-05T14:34:27Z",
+        "content": "The parties hoping to form Germanys next government have agreed to create a 500-billion-euro ($536.9bn) infrastructure fund and overhaul borrowing rules, a tectonic spending shift in Europes largest \u2026 [+3464 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": null,
+        "title": "How will Germany\u2019s new government deal with the challenges ahead?",
+        "description": "Europe's biggest economy faces multiple difficulties at home and abroad.",
+        "url": "https://www.aljazeera.com/program/inside-story/2025/2/25/how-will-germanys-new-government-deal-with-the-challenges-ahead",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/image-1740510059.jpg?resize=1920%2C1061&quality=80",
+        "publishedAt": "2025-02-25T19:35:46Z",
+        "content": "Europes biggest economy faces multiple difficulties at home and abroad.There could be difficult times for Germanys next government after Sundays elections.\r\nAn economic crisis at home, war in Ukraine\u2026 [+495 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "\u2018No more silence\u2019: Israelis face Gaza war backlash on Sri Lanka\u2019s beaches",
+        "description": "For years, relations between residents and Israeli visitors were cordial, but cracks in this dynamic are now visible.",
+        "url": "https://www.aljazeera.com/news/2025/2/17/no-more-silence-israelis-face-gaza-war-backlash-on-sri-lankas-beaches",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/Shabbat-Centre-Arugam-Bay-1739773068.jpg?resize=1200%2C630",
+        "publishedAt": "2025-02-17T07:21:05Z",
+        "content": "Arugam Bay, Sri Lanka The sun hung low over the Indian Ocean, casting an amber glow on the waves as a heated argument erupted in Arugam Bay, a popular beach in eastern Sri Lanka.\r\nIn the water, a gro\u2026 [+13901 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "More than $50bn needed to rebuild Gaza after Israel\u2019s war on enclave",
+        "description": "Researchers conclude that $53.2bn is needed for extensive reconstruction and recovery efforts over the next 10 years.",
+        "url": "https://www.aljazeera.com/news/2025/2/19/more-than-50bn-needed-to-rebuild-gaza-after-israels-war-on-enclave",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AA-20250218-37093470-37093439-DAILY_LIFE_AFTER_THE_CEASEFIRE_AGREEMENT_IN_GAZA-1-1739908030.jpg?resize=1200%2C630",
+        "publishedAt": "2025-02-19T01:48:08Z",
+        "content": "Reconstruction efforts in Gaza will require more than $50bn after 15 months of Israels devastating war, according to a new assessment by the United Nations, the European Union and the World Bank.\r\nTh\u2026 [+4888 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Iran\u2019s economy minister impeached amid rising inflation, falling currency",
+        "description": "Hemmati was removed from office after 182 out of 273 lawmakers voted against him.",
+        "url": "https://www.aljazeera.com/news/2025/3/2/irans-economy-minister-impeached-amid-rising-inflation-falling-currency",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AFP__20250302__36Z2469__v1__Preview__IranPoliticsEconomyParliament-1740914142.jpg?resize=1200%2C630",
+        "publishedAt": "2025-03-02T12:27:27Z",
+        "content": "Irans economy minister has been impeached after the parliament voted to dismiss him from office amid rising inflation and a falling currency.\r\nAbdolnaser Hemmati was removed from office after 182 out\u2026 [+2173 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Leaders hail Merz for German election win amid warnings on far-right surge",
+        "description": "Global leaders congratulate conservative leader Friedrich Merz, but others focus on the success of the AfD.",
+        "url": "https://www.aljazeera.com/news/2025/2/24/leaders-hail-merz-for-german-election-win-amid-warnings-on-far-right-surge",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AP25054645979403-1740376503.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-24T10:29:42Z",
+        "content": "Many world leaders have congratulated Friedrich Merz, leader of the Christian Democratic Union (CDU), for winning the German elections.\r\nHowever, as the reactions rolled in, some were also wary, whil\u2026 [+5506 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Trump threatens further tariff hikes after Canada retaliates",
+        "description": "US president posts warning on social media after Canada PM Trudeau slammed 'dumb' trade war.",
+        "url": "https://www.aljazeera.com/news/2025/3/4/trump-threatens-further-tariff-hikes-for-canada-retaliation",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AFP__20250304__36ZA4JX__v1__HighRes__CanadaUsDiplomacyTradeTariffs-1741116898.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-04T21:11:28Z",
+        "content": "US President Donald Trump has warned Canada that he will escalate his trade war after Prime Minister Justin Trudeau announced retaliatory tariffs on US goods.\r\nTrumps 25-percent tariffs on imports fr\u2026 [+3363 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Leonid Ragozin",
+        "title": "It is not Trump that betrayed Ukraine",
+        "description": "Those who set it on a path to full-scale war with Russia did.",
+        "url": "https://www.aljazeera.com/opinions/2025/2/17/it-is-not-trump-that-betrayed-ukraine",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AP25015602624892-1739795002_aca113-1739795071.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-02-17T12:25:09Z",
+        "content": "United States President Donald Trump did not stop the war in Ukraine within 24 hours of his inauguration, as he promised during the election campaign last year. But three weeks into his presidency, t\u2026 [+6255 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Maksym Skrypchenko",
+        "title": "A flawed peace deal would not end the war in Ukraine",
+        "description": "Western policymakers should consider what happened with the Minsk agreements when talking peace in Ukraine.",
+        "url": "https://www.aljazeera.com/opinions/2025/2/24/a-flawed-peace-deal-would-not-end-the-war-in-ukraine",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2015-01-22T120000Z_984842548_GM1EB1N001101_RTRMADP_3_UKRAINE-CRISIS-CASUALTIES-1740397733.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-24T11:52:06Z",
+        "content": "Today, we mark three years of Russias full-scale invasion of Ukraine. For three years, the Ukrainian people have demonstrated remarkable resilience, foiling Russian plans to conquer Kyiv and forcing \u2026 [+5793 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Malaysia\u2019s economy grows 5.1% in 2024 on strong investment, domestic demand",
+        "description": "Central bank says Southeast Asian economy on track for robust investment, exports and household spending going forward.",
+        "url": "https://www.aljazeera.com/economy/2025/2/14/malaysias-economy-grows-5-1-in-2024-on-strong-investment-domestic-demand",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AP20079387872339-1739516873_d3cee3-1739518486.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-02-14T07:51:29Z",
+        "content": "Malaysias economy grew 5.1 percent in 2024, as strong domestic demand and investment offset a downturn in the commodities sector, according to the Southeast Asian countrys central bank.\r\nGross domest\u2026 [+1316 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Saumya Roy",
+        "title": "Trump\u2019s tariffs present fresh headache for India\u2019s slowing economy",
+        "description": "India, one of the fastest growing economies in the world, is facing a slowdown in a sign of deeper problems.",
+        "url": "https://www.aljazeera.com/features/2025/2/18/trumps-tariffs-present-fresh-headache-for-indias-slowing-economy",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2018-03-28T072221Z_745161182_RC1A6384C440_RTRMADP_3_INDIA-ECONOMY-INFLATION-1738251506-1739837365.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-02-18T00:05:10Z",
+        "content": "Hours before Indian Prime Minister Narendra Modis visit to the White House, President Donald Trump announced that the United States would levy reciprocal tariffs on its trading partners.\r\nIt could ha\u2026 [+6446 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Erin Hale, Alastair McCready",
+        "title": "Why China isn\u2019t as worried about Trump\u2019s trade war as in 2018",
+        "description": "Beijing is much better positioned to withstand US tariffs than during Trump's first administration, analysts say.",
+        "url": "https://www.aljazeera.com/news/2025/3/11/why-china-isnt-as-worried-about-trumps-trade-war-as-in-2018",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP25066812046678-1741573682_361522-1741589686.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-03-11T00:51:54Z",
+        "content": "Taipei, Taiwan As United States President Donald Trump kicks off a new trade war with China, analysts say he will face a much stronger and more prepared adversary in Beijing compared with his first t\u2026 [+7057 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Brian Osgood",
+        "title": "US declares drug cartels, criminal gangs global terrorist organisations",
+        "description": "Trump frequently depicts immigration and drug smuggling as part of an 'invasion' of the US to justify harsh measures.",
+        "url": "https://www.aljazeera.com/news/2025/2/19/us-declares-drug-cartels-criminal-gangs-global-terrorist-organisations",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-13T194311Z_1613469728_RC2TTCA2ONNZ_RTRMADP_3_USA-TRUMP-TARIFFS-1739476447.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-19T23:20:22Z",
+        "content": "The United States has designated eight Latin American criminal and drug-trafficking groups as global terrorist organisations amid escalating rhetoric from President Donald Trump.\r\nIn a Federal Regist\u2026 [+4228 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Alfonso Gonzales Toribio, Murrell Brooks",
+        "title": "The real reason behind Trump\u2019s tariffs on Mexico and military buildup",
+        "description": "The US president wants to bully Mexico back into America\u2019s back yard under a Monroe Doctrine redux.",
+        "url": "https://www.aljazeera.com/opinions/2025/3/7/the-real-reason-behind-trumps-tariffs-on-mexico-and-military",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-02-27T221531Z_189824093_RC203DACU4LZ_RTRMADP_3_MIGRATION-USA-BORDER-1741367159.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-07T17:58:48Z",
+        "content": "Earlier this week, President Donald Trumps administration announced the imposition of 25-percent tariffs on imports from Mexico only to roll some of them back again. On March 6, the US president anno\u2026 [+5078 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "US President Trump\u2019s claims about Zelenskyy and Ukraine fact-checked",
+        "description": "Trump is engaged in an escalating war of words with Zelenskyy, but his comments on the Ukraine leader are not accurate.",
+        "url": "https://www.aljazeera.com/news/2025/2/21/us-president-trumps-claims-about-zelenskyy-and-ukraine-fact-checked",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20250219__36Y92N2__v4__HighRes__ComboUsUkraineRussiaConflictTrumpZelensky-1740135547.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-21T12:04:51Z",
+        "content": "United States President Donald Trump has made a series of claims about Ukraine and its leader as he seeks to end\u00a0the countrys three-year war with Russia.\r\nTrumps relationship with Ukrainian President\u2026 [+8201 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Trump vs Zelenskyy: What\u2019s behind escalating war of words?",
+        "description": "Trump called Zelenskyy a 'dictator' amid a brewing war of words between the two leaders.",
+        "url": "https://www.aljazeera.com/news/2025/2/20/trump-vs-zelenskyy-whats-behind-escalating-war-of-words",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-04T070012Z_545245191_RC239AA9403C_RTRMADP_3_UKRAINE-CRISIS-POLITICS-1740034245.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-20T09:24:56Z",
+        "content": "United States President Donald Trump has called his Ukrainian counterpart Volodymyr Zelenskyy a dictator as the rift between them deepens over Ukraine peace negotiations.\r\nTrumps latest broadside aga\u2026 [+7283 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Sarah Shamim",
+        "title": "US-Ukraine critical minerals deal: What we know so far",
+        "description": "Zelenskyy might visit Trump this week for a rare earth minerals deal in efforts to win Washington's backing for Kyiv.",
+        "url": "https://www.aljazeera.com/economy/2025/2/26/us-ukraine-critical-minerals-deal-what-we-know-so-far",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-25T210512Z_1691114338_RC2W1DAS1LL0_RTRMADP_3_UKRAINE-CRISIS-USA-MINERALS-1740556029.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-26T14:00:04Z",
+        "content": "The United States and Ukraine have agreed to a draft critical minerals deal worth $1 trillion, US President Donald Trump confirmed on Tuesday, in a development seen as an attempt by Kyiv to win the s\u2026 [+9634 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Lebanon\u2019s new government wins confidence vote in parliament",
+        "description": "Nawaf Salam's government wins the backing of 95 lawmakers in the 128-seat parliament.",
+        "url": "https://www.aljazeera.com/news/2025/2/26/lebanons-new-government-wins-confidence-vote-in-parliament",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/01/2025-01-14T105906Z_337646981_RC2M9CAESC79_RTRMADP_3_LEBANON-POLITICS-GOVERNMENT-1736874202.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-26T21:00:51Z",
+        "content": "Lebanons new government has won a confidence vote in parliament, following a speech by Prime Minister Nawaf Salam promising to push for economic reforms and to start negotiations with the Internation\u2026 [+2413 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Trump\u2019s steel, aluminium tariffs: How are targeted countries responding?",
+        "description": "Some countries are fighting back with retaliatory tariffs, others are seeking exemptions and are trying to negotiate.",
+        "url": "https://www.aljazeera.com/news/2025/3/13/trumps-steel-aluminium-tariffs-how-are-targeted-countries-responding",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-01-31T200613Z_862416745_RC22LCA8G0HK_RTRMADP_3_USA-TRUMP-CANADA-TARIFFS-1741760013.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-13T10:16:44Z",
+        "content": "President Donald Trumps tariffs on the imports of steel and aluminium by the United States are sending shockwaves through global markets and escalating tensions with key trading partners, including C\u2026 [+9374 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Maziar Motamedi",
+        "title": "Iran\u2019s government hits out at crypto again as currency freefalls",
+        "description": "Iran appears poised to impose new levels of control and oversight into crypto amid deteriorating economic conditions.",
+        "url": "https://www.aljazeera.com/news/2025/2/27/irans-government-hits-out-at-crypto-again-as-currency-freefalls",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2022-11-04T122444Z_541332811_RC2JEX9CE9SP_RTRMADP_3_FINTECH-CRYPTO-BINANCE-IRAN-1740581462.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-27T05:30:16Z",
+        "content": "Tehran, Iran \u00a0Iranian authorities have again been cracking down on cryptocurrencies and online exchanges as the value of the national currency plummets in an economy in turmoil.\r\nLast month, the Cent\u2026 [+7850 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "John T Psaropoulos",
+        "title": "Far right set to make strides in a German election dominated by immigration",
+        "description": "Mainstream parties struggle to retain voters in a fragmented political landscape.",
+        "url": "https://www.aljazeera.com/news/2025/2/19/far-right-set-to-make-strides-in-a-german-election-dominated-by-immigration",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-01-23T220440Z_332150980_RC2NFCAVRT0Q_RTRMADP_3_GERMANY-ELECTION-CDU-1739973274.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-19T16:24:40Z",
+        "content": "Germans would be hard-pressed to find a time when their political landscape was as fragmented as it is days ahead of Sundays federal election.\r\nFor the first time since World War II, Germanys two tra\u2026 [+6893 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Niko Vorobyov",
+        "title": "\u2018Americans are on our side\u2019: Russians laud US efforts to end Ukraine war",
+        "description": "A sense of optimism is being felt across Russia, but some remain sceptical about the possibility of peace.",
+        "url": "https://www.aljazeera.com/news/2025/3/12/americans-are-on-our-side-russians-laud-us-efforts-to-end-ukraine-war",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-02-24T121930Z_452468498_RC2Y0DAW4YU3_RTRMADP_3_UKRAINE-CRISIS-RUSSIA-ECONOMY-1741704929.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-12T12:46:51Z",
+        "content": "Russias full-scale invasion of Ukraine launched three years ago has ravaged much of the war-torn nation and killed thousands of Ukrainian civilians.\r\nBoth sides have lost enormous numbers of soldiers\u2026 [+6810 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera Staff",
+        "title": "Qatar\u2019s emir holds talks with Iran\u2019s president in Tehran",
+        "description": "Qatar\u2019s Sheikh Tamim bin Hamad Al Thani says regional challenges 'necessitate coordination'.",
+        "url": "https://www.aljazeera.com/news/2025/2/19/qatar-and-iran-strengthen-economic-ties-discuss-gaza-syria-region",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20250219__36Y474X__v1__HighRes__IranQatarPoliticsDiplomacy-1739977403.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-19T17:52:38Z",
+        "content": "Qatars emir has held talks with Irans president in Tehran amid high tensions in the region, kicking off a state visit that is expected to include a meeting with the countrys supreme leader.\r\nIts my p\u2026 [+1604 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "NATO\u2019s Rutte backs Bosnia after separatist moves by Serbian region",
+        "description": "Visit to Sarajevo comes after Bosnian Serb leaders bar federal judicial authorities and police from Republika Srpska.",
+        "url": "https://www.aljazeera.com/news/2025/3/10/natos-rutte-slams-unacceptable-threats-to-bosnias-security",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP25069513647350-1741617996.jpg?resize=1200%2C675",
+        "publishedAt": "2025-03-10T17:29:07Z",
+        "content": "NATO Secretary-General Mark Rutte has pledged the military alliances unwavering support for Bosnia and Herzegovinas federal government after a series of separatist moves from Bosnian Serb leaders.\r\nR\u2026 [+3456 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "AJLabs",
+        "title": "German election 2025 live results: By the numbers",
+        "description": "About 59 million Germans were eligible to vote in snap elections to decide who will govern eurozone\u2019s largest economy.",
+        "url": "https://www.aljazeera.com/news/2025/2/23/german-election-2025-live-results-by-the-numbers",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/INTERACTIVE-GERMAN-ELECTION-LIVE-RESULTS-2025-FEB-23-2025-2-1740319276.png?resize=1200%2C630",
+        "publishedAt": "2025-02-23T20:57:13Z",
+        "content": "Votes are now being counted across Germany where about 59 million citizens were eligible to vote in snap elections to decide who will govern the eurozones largest economy for the next four years.\r\nPo\u2026 [+4397 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Farah Najjar",
+        "title": "Greenland general election: As Trump eyes island, why the vote matters",
+        "description": "Amid growing pro-independence mood and the threat of a Trump takeover, Greenlanders vote in a pivotal election.",
+        "url": "https://www.aljazeera.com/news/2025/3/11/greenland-general-election-as-trump-eyes-island-why-the-vote-matters",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-03-09T113051Z_137434472_RC279DANIC6E_RTRMADP_3_GREENLAND-ELECTION-1741539857.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-11T05:49:37Z",
+        "content": "Greenland, the worlds largest island, votes on Tuesday to elect its next parliament and government.\r\nThe thinly populated Danish territorys elections usually attract only local attention. However, th\u2026 [+11129 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Trump hits Canada, Mexico, China with high tariffs as trade war intensifies",
+        "description": "New 25 percent tariffs on Mexico, Canada imports take effect along with doubling of duties on China goods to 20 percent.",
+        "url": "https://www.aljazeera.com/news/2025/3/4/trump-hits-canada-mexico-china-with-high-tariffs-as-trade-war-intensifies",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20250204__36X478K__v1__Preview__ComboUsChinaPoliticsTariffTradeTrumpXi-1738688148.jpg?resize=1200%2C630",
+        "publishedAt": "2025-03-04T09:51:24Z",
+        "content": "United States President Donald Trumps new 25 percent tariffs on imports from Mexico and Canada have taken effect, along with a doubling of duties on Chinese goods to 20 percent, launching new trade c\u2026 [+3605 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "US public souring on Trump\u2019s handling of economy, polls show",
+        "description": "Majority of Americans disapprove of Trump\u2019s economic management amid stock market turmoil, polls show.",
+        "url": "https://www.aljazeera.com/economy/2025/3/13/us-public-souring-on-trumps-handling-of-economy-polls-show",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP25025790118905-1741828900_7407ee-1741840408.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-03-13T04:33:34Z",
+        "content": "United States President Donald Trumps handling of the economy is facing growing pushback from Americans amid wild swings in the stock market and growing fears of a recession, new polling shows.\r\nIn a\u2026 [+1836 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "John Power",
+        "title": "Trump declines to rule out US recession as tariffs spook investors",
+        "description": "US president says economy is in a \"period of transition\" amid uncertainty over his trade policies.",
+        "url": "https://www.aljazeera.com/economy/2025/3/10/trump-declines-to-rule-out-us-recession-as-tariffs-spook-investors",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-03-10T003634Z_402662314_RC2Y9DAC4O0P_RTRMADP_3_USA-TRUMP-1741576274.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-10T06:11:54Z",
+        "content": "United States President Donald Trump has declined to rule out the possibility that the worlds largest economy is headed for a recession amid market concerns over his America First economic agenda.\r\nI\u2026 [+1950 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Germany\u2019s Green Party rejects Merz\u2019s spending proposals",
+        "description": "Incoming chancellor Friedrich Merz's proposal comes as the German economy experiences prolonged stagnation.",
+        "url": "https://www.aljazeera.com/news/2025/3/10/germanys-green-party-rejects-merzs-spending-proposals",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AFP__20250310__36ZL82E__v1__HighRes__GermanyPoliticsPartiesGreens-1741616598.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-10T16:17:45Z",
+        "content": "Germanys Green Party has threatened to torpedo plans put forward by likely incoming chancellor Friedrich Merz to invest hundreds of billions of euros in defence and infrastructure.\r\nMerz, whose conse\u2026 [+4566 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": null,
+        "title": "Will the US make business deals with Russia?",
+        "description": "US secretary of state says there are \u2018extraordinary\u2019 economic opportunities in Russia.",
+        "url": "https://www.aljazeera.com/program/counting-the-cost/2025/3/6/will-the-us-make-business-deals-with-russia",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/trump-putin-business-counting-the-cost-clean-1741254955.jpg?resize=1920%2C1080&quality=80",
+        "publishedAt": "2025-03-06T09:56:05Z",
+        "content": "US secretary of state says there are extraordinary economic opportunities in Russia.After three years of Western sanctions, Russia could once again be open for American businesses but only if a deal \u2026 [+557 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": null,
+        "title": "Will the US make business deals with Russia?",
+        "description": "US secretary of state says there are \u2018extraordinary\u2019 economic opportunities in Russia.",
+        "url": "https://www.aljazeera.com/program/counting-the-cost/2025/3/7/will-the-us-make-business-deals-with-russia",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/image-1741351088.jpg?resize=1920%2C1080&quality=80",
+        "publishedAt": "2025-03-07T15:00:00Z",
+        "content": "US secretary of state says there are extraordinary economic opportunities in Russia.After three years of Western sanctions, Russia could once again be open for American businesses but only if a deal \u2026 [+557 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "UK to hike defence spending and cut aid budget, Starmer says",
+        "description": "British prime minister Keir Starmer's announcement comes prior to his trip to the United States later this week.",
+        "url": "https://www.aljazeera.com/news/2025/2/25/uk-to-hike-defence-spending-and-cut-aid-budget-starmer-says",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20250225__36YL6WF__v1__HighRes__BritainPoliticsDefence-1740493382.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-25T15:18:43Z",
+        "content": "The United Kingdom will increase its annual defending spending to 2.5 percent of GDP by 2027, Prime Minister Keir Starmer has said, signalling the UKs efforts to boost Europes security.\r\nOn the eve o\u2026 [+2783 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Pakistani and Afghan forces clash at vital border crossing",
+        "description": "Afghanistan says one member of its security forces is killed and two injured in overnight clashes at Torkham crossing.",
+        "url": "https://www.aljazeera.com/news/2025/3/3/pakistani-and-afghan-forces-clash-at-vital-border-crossing",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP25058448185282-1741009220.jpg?resize=1200%2C675",
+        "publishedAt": "2025-03-03T15:24:24Z",
+        "content": "At least one person has been killed as Pakistani and Afghan security forces have traded fire at the recently closed main border crossing between the two countries.\r\nAfghanistans Ministry of Interior \u2026 [+2349 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "German frontrunner pledges to lead in Europe before key election",
+        "description": "German Chancellor Olaf Scholz and opposition leader Friedrich Merz appeal to voters before Sunday's election.",
+        "url": "https://www.aljazeera.com/news/2025/2/22/german-frontrunner-pledges-to-lead-in-europe-before-key-election",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-22T163348Z_1311532386_RC2SZCAPA69Q_RTRMADP_3_GERMANY-ELECTION-MERZ-FINAL-RALLY-1740253698.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-22T20:38:00Z",
+        "content": "German politicians made their final appeals to voters on Saturday on the eve of crucial snap elections in which conservatives are the frontrunners and the far right is forecast to make gains.\r\nElecti\u2026 [+3019 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Tim Constantine",
+        "title": "America needs Donald Trump right now. Here\u2019s why",
+        "description": "He's brash and unconventional. But unlawful border crossing are at an all-time low, and he got a ceasefire in Gaza.",
+        "url": "https://www.aljazeera.com/opinions/2025/3/9/america-needs-donald-trump-right-now-heres-why",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-02-05T212455Z_1358735442_RC2FOCAMSWWJ_RTRMADP_3_USA-TRUMP-1741299907.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-09T17:40:32Z",
+        "content": "It has now been more than three months since Donald Trump was elected the 47th president of the United States last November with a resounding victory over the sitting vice president, Kamala Harris.\r\n\u2026 [+6244 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Pro-monarchists welcome Nepal\u2019s deposed King Gyanendra to Kathmandu",
+        "description": "Thousands of supporters attend pro-monarchy rally at airport as ex-king returns to the capital from the country's west.",
+        "url": "https://www.aljazeera.com/news/2025/3/9/pro-monarchists-welcome-nepals-deposed-king-gyanendra-to-kathmandu",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-03-09T132012Z_153839046_RC2M9DA4FK36_RTRMADP_3_NEPAL-POLITICS-1741534382.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-09T17:37:00Z",
+        "content": "Large crowds have greeted Nepals former king in the capital, Kathmandu, calling for the reinstatement of his abolished monarchy amid dissatisfaction over the state of the country.\r\nAn estimated 10,00\u2026 [+3364 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Maziar Motamedi",
+        "title": "Iran bets big on gold as it weathers Trump turmoil",
+        "description": "Iran says it has turned much of its reserves into gold, as gold imports soar to three times the level of last year.",
+        "url": "https://www.aljazeera.com/news/2025/3/13/iran-bets-big-on-gold-as-it-weathers-trump-turmoil",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AFP__20250303__36Z886V__v1__HighRes__IranPoliticsEconomy-1741863380.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-13T11:41:29Z",
+        "content": "Tehran, Iran Iran has been importing tonnes of gold in the past few months as it hunkers down for more hardships under the United Statess maximum pressure policy.\r\nIran has turned more to gold as a s\u2026 [+7207 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "UN biodiversity talks resume with dispute over funding topping the agenda",
+        "description": "Annual conference on biodiversity that ran out of time last year resumes in Rome with nations sparring over money.",
+        "url": "https://www.aljazeera.com/news/2025/2/25/un-biodiversity-talks-resume-with-dispute-over-funding-topping-the-agenda",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-24T085524Z_1292254370_RC2T0DAO1VYB_RTRMADP_3_ENVIRONMENT-COP16-PROTEST-1740505141.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-25T18:21:08Z",
+        "content": "Global talks to protect biodiversity have restarted with a call for humanity to come together to sustain life on the planet and overcome a fight over funding that caused the previous meeting last yea\u2026 [+5052 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "US-Russia talks sideline Ukraine and Europe",
+        "description": "The talks could lead to a summit later this month between US President Trump and Russian President Putin.",
+        "url": "https://www.aljazeera.com/news/2025/2/18/us-russia-talks-sideline-ukraine-and-europe",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20250218__36Y3826__v2__HighRes__SaudiUsRussiaUkraineConflictPoliticsDiplomacy-1739881211.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-18T13:43:42Z",
+        "content": "United States and Russian officials have met in Saudi Arabia for the first high-level talks between the two countries since the Kremlins full-scale invasion of Ukraine three years ago.\r\nUS Secretary \u2026 [+3985 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera Staff",
+        "title": "Why Trump\u2019s tariff chaos sparked stock market meltdown and recession fears",
+        "description": "Donald Trump has downplayed the stock market volatility which followed flip-flops over his trade policies.",
+        "url": "https://www.aljazeera.com/news/2025/3/11/why-trumps-tariff-chaos-sparked-stock-market-meltdown-and-recession-fears",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/12/AP819102356151-1733774460.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-11T11:43:41Z",
+        "content": "United States stock markets plummeted on Monday amid fears that President Donald Trumps tariff policies might drive the worlds largest economy into recession. After years of impressive growth, Americ\u2026 [+6560 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Greenland votes in election dominated by Trump\u2019s pledge to control island",
+        "description": "Voting was extended at some polling stations amid high voter turnout in an election dominated by Trump's control pledge.",
+        "url": "https://www.aljazeera.com/news/2025/3/12/greenland-votes-in-election-dominated-by-trumps-pledge-to-control-island",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AFP__20250311__36ZT36D__v1__HighRes__GreenlandPoliticsVote-1741740080.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-12T01:02:57Z",
+        "content": "Unofficial results in Greenlands election are expected to emerge shortly after polling closed in a vote that will determine which leaders confront United States President Donald Trumps pledge to take\u2026 [+3064 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Far-right AfD and socialist left win over young Germans, election reveals",
+        "description": "Young Germans flocked to opposite ends of the political spectrum in the federal election, rejecting the centre.",
+        "url": "https://www.aljazeera.com/news/2025/2/25/how-afd-the-left-won-the-german-youth-vote",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-23T184036Z_835497366_RC2H0DA1QKHJ_RTRMADP_3_GERMANY-ELECTION-REACTION-LINKE-1740471832.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-25T11:39:33Z",
+        "content": "Young Germans leaned to the far ends of the political spectrum in Sundays election, with most backing Die Linke (The Left) and the far-right Alternative fur Deutschland (AfD), or Alternative for Germ\u2026 [+5461 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "US consumer confidence dives, posts biggest drop in 3.5 years",
+        "description": "Tariffs on imports, mass firings of federal workers are some of the issues taking a toll on consumer psyche.",
+        "url": "https://www.aljazeera.com/economy/2025/2/25/us-consumer-confidence-dives-posts-biggest-drop-in-3-5-years",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AP25054092819099-1740411870.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-25T18:58:46Z",
+        "content": "United States consumer confidence deteriorated at its sharpest pace in 3-1/2 years in February while 12-month inflation expectations surged, offering further signs that Americans were growing anxious\u2026 [+3604 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Alexander Kozul-Wright",
+        "title": "Can new Africa Energy Bank power a continent while protecting the planet?",
+        "description": "A long-planned bank to fund oil and gas projects in Africa must balance profit with climate considerations, experts say.",
+        "url": "https://www.aljazeera.com/news/2025/2/19/can-new-africa-energy-bank-power-a-continent-while-protecting-the-planet",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2022/03/AP22079485163111.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-19T05:11:20Z",
+        "content": "A group of African countries is set to launch a bank to fund oil and gas projects amid growing reluctance by Western institutions to further invest in fossil fuels.\r\nThe long-planned Africa Energy Ba\u2026 [+8609 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Georgian court hands former president Saakashvili new prison term",
+        "description": "Georgia's opposition forces claim the ruling reflects regime's fear of the former pro-Western leader.",
+        "url": "https://www.aljazeera.com/news/2025/3/12/georgian-court-hands-former-president-saakashvili-new-prison-term",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/03/AP21336412075868.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-12T10:50:55Z",
+        "content": "A court in Georgia has handed ex-president Mikheil Saakashvili a new nine-year prison sentence after finding him guilty of embezzlement.\r\nThe ruling, announced on Wednesday, extends the detention of \u2026 [+3630 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera Staff",
+        "title": "Trump announces US crypto reserve: What it is, and why it matters",
+        "description": "The announcement over the weekend sent crypto markets into an upwards frenzy following a recent weeks-long slump.",
+        "url": "https://www.aljazeera.com/news/2025/3/4/trump-announces-us-crypto-reserve-what-it-is-and-why-it-matters",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/08/AP23235645002093-1692838895.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-04T08:32:17Z",
+        "content": "United States President Donald Trump on Sunday announced his government would create a national strategic crypto reserve that would include five cryptocurrencies, adding he would make the US the cryp\u2026 [+8260 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Niko Vorobyov",
+        "title": "\u2018Propaganda lessons for everyone\u2019: Russia\u2019s wartime curriculum exposed",
+        "description": "A new film reveals how Moscow's overhauled syllabus is influencing a generation of young Russians.",
+        "url": "https://www.aljazeera.com/news/2025/2/26/propaganda-lessons-for-everyone-russias-wartime-curriculum-exposed",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/PictureOfTheFilm_PavelTalankin_credit_Frantisek-Svatos-_LOW-1740569088.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-26T11:56:07Z",
+        "content": "In Pavel Talankins film, Mr. Nobody Against Putin, one scene depicts Russian schoolteachers struggling to explain the reasons for Moscows full-scale invasion of Ukraine to their pupils, early on in t\u2026 [+8932 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera Staff",
+        "title": "Key takeaways from Donald Trump\u2019s meeting with India\u2019s Narendra Modi",
+        "description": "The Indian prime minister praised Trump while angling to avoid the steep 'reciprocal' tariffs the US president plans.",
+        "url": "https://www.aljazeera.com/news/2025/2/14/key-takeaways-from-donald-trumps-meeting-with-indias-narendra-modi",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AP25044858165155-1739494885.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-14T02:23:07Z",
+        "content": "Indian Prime Minister Narendra Modi has returned to the White House for his first visit of Donald Trumps second term as United States president.\r\nTrump and Modis relationship has been dubbed a broman\u2026 [+9498 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Edna Mohamed",
+        "title": "Who is running in the German election and what are the key issues?",
+        "description": "German citizens will take to the polls on February 23 for a snap general election.",
+        "url": "https://www.aljazeera.com/news/2025/2/20/who-is-running-in-the-german-elections-and-what-are-the-key-issues",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-11T114631Z_1310647105_RC26MCATH96T_RTRMADP_3_GERMANY-ELECTION-1739459940.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-20T06:43:46Z",
+        "content": "Germany will go to the polls on Sunday, February 23 after a snap election was called in December following the collapse of the coalition government led by Chancellor Olaf Scholz.\r\nKey issues for vote\u2026 [+11092 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Mexico, Canada say prepared as Trump\u2019s tariff deadline looms",
+        "description": "Mexico's president says country is ready for anything ahead of Tuesday deadline, as Canadian officials warn retaliation.",
+        "url": "https://www.aljazeera.com/news/2025/3/3/mexico-canada-say-prepared-as-trumps-tariff-deadline-looms",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP25031759340650-1741017745.jpg?resize=1920%2C1333",
+        "publishedAt": "2025-03-03T17:17:39Z",
+        "content": "A day before US Presidents Donald Trumps tariffs are expected to go into effect, Mexico and Canada say they have plans in place for how to respond.\r\nTrump is expected to decide on Monday what levels \u2026 [+3200 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Syria\u2019s interim leader launches national dialogue on political transition",
+        "description": "Talks promoted as crucial milestone towards democratic transition by al-Sharaa but scepticism remains.",
+        "url": "https://www.aljazeera.com/news/2025/2/25/syrias-interim-leader-launches-national-dialogue-on-political-future",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20250224__36YL4T7__v2__HighRes__SyriaConflictPolitics-1740469796.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-25T09:28:42Z",
+        "content": "Syrias de facto leader reiterated his pledge to deliver a democratic political transition as talks on the countrys future opened.\r\nAhmed al-Sharaa on Tuesday urged his countrymen to unite and pledged\u2026 [+3731 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Ukraine reconstruction costs cross half-trillion-dollar mark: Report",
+        "description": "The $524bn estimate marks growing needs provoked by Russia's bombardment of Ukrainian cities and infrastructure.",
+        "url": "https://www.aljazeera.com/news/2025/2/25/ukraine-reconstruction-costs-cross-half-trillion-dollar-mark-report",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/GettyImages-2198543645-1740480169.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-25T12:13:48Z",
+        "content": "The estimated cost of reconstructing Ukraine has risen to more than half a trillion US dollars, according to a new report.\r\nThe cost of rebuilding the country and reviving its economy has risen to $5\u2026 [+2971 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Farah Najjar",
+        "title": "\u2018Cool head\u2019: How Mexico\u2019s Claudia Sheinbaum is handling Trump and tariffs",
+        "description": "Unlike Canada's Trudeau, Sheinbaum has been more diplomatic while insisting on protecting Mexican interests. Here's why.",
+        "url": "https://www.aljazeera.com/news/2025/3/6/cool-head-how-mexicos-claudia-sheinbaum-is-handling-trump-and-tariffs",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP25031759340650-1741017745.jpg?resize=1920%2C1333",
+        "publishedAt": "2025-03-06T11:41:16Z",
+        "content": "As United States President Donald Trumps sweeping 25 percent tariffs on imports from Mexico and Canada were about to kick in, Canadian Prime Minister Justin Trudeau was quick to hit back.\r\nIn a news \u2026 [+9311 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Tafi Mhaka",
+        "title": "Trump\u2019s USAID freeze must serve as a wake-up call for Africa",
+        "description": "Africa's leaders must stop blaming Trump, address corruption, and end the continent's reliance on US aid.",
+        "url": "https://www.aljazeera.com/opinions/2025/3/13/trumps-usaid-freeze-must-serve-as-a-wake-up-call-for-africa",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/RC22NCA7UVIA-1741854907.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-13T08:37:52Z",
+        "content": "On January 20, President Donald Trump sanctioned a 90-day halt on foreign aid, a decision that affected all financial support distributed by the United States Agency for International Development (US\u2026 [+8754 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Bank of Canada cuts interest rates, warned country faces \u2018new crisis\u2019",
+        "description": "BoC also said it would \"proceed carefully with any further changes\" to rates given inflationary pressures from tariffs.",
+        "url": "https://www.aljazeera.com/economy/2025/3/12/bank-of-canada-cuts-interest-rates-warned-country-faces-new-crisis",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/06/2021-10-07T174033Z_427158869_RC255Q98AC22_RTRMADP_3_CANADA-CENBANK-1717598197.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-12T16:28:52Z",
+        "content": "The Bank of Canada has trimmed its key policy rate by 25 basis points to 2.75 percent and raised concerns about inflationary pressures and weaker growth stemming from trade uncertainty and President \u2026 [+3600 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Olamide Samuel",
+        "title": "Europe going nuclear would be a catastrophic mistake",
+        "description": "Proposals for nuclear sharing as a form of deterrence risk bringing more insecurity to Europe.",
+        "url": "https://www.aljazeera.com/opinions/2025/3/11/europe-going-nuclear-would-be-a-catastrophic-mistake",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP20164497652057-1741697325.jpg?resize=1920%2C1312",
+        "publishedAt": "2025-03-11T12:52:03Z",
+        "content": "The second administration of US President Donald Trump has brought about tectonic shifts in the European security calculus. Growing anxieties about American retrenchment and the collapse of post-Worl\u2026 [+7607 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Megha Bahree",
+        "title": "Trump\u2019s tariffs unleash \u2018existential fight\u2019 for Canada",
+        "description": "Even if blanket tariffs are revoked, more tailored levies are likely to persist, stoking inflation, analysts say.",
+        "url": "https://www.aljazeera.com/economy/2025/3/5/trumps-tariffs-unleash-existential-fight-for-canada",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-02-07T154716Z_93805163_RC2PPCAZS8S8_RTRMADP_3_USA-TRUMP-TARIFFS-CANADA-1739388073-1741133453.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-03-05T02:09:53Z",
+        "content": "United States President Donald Trump has been true to his threats.\r\nOn Tuesday, the Trump administration unleashed 25 percent blanket tariffs on Canadian imports, excluding energy, which was hit with\u2026 [+5839 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Macron tells Trump Europe wants to secure \u2018solid peace\u2019 in Ukraine",
+        "description": "French president meets Donald Trump at the White House amid concerns in Europe over US relations, support for Ukraine.",
+        "url": "https://www.aljazeera.com/news/2025/2/24/macron-tells-trump-europe-wants-to-secure-solid-peace-in-ukraine",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-24T180136Z_1779091964_RC251DAO0P14_RTRMADP_3_USA-FRANCE-1740420531.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-24T18:59:49Z",
+        "content": "Emmanuel Macron has said Europe wants to secure a lasting peace in Ukraine, as the French president met with United States President Donald Trump at the White House on the third anniversary of Russia\u2026 [+4192 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Pope Francis marks 12 years as head of Catholic church in hospital",
+        "description": "The leader of the world's 1.4 billion Catholics is recovering from double pneumonia at Rome's Gemelli hospital.",
+        "url": "https://www.aljazeera.com/news/2025/3/13/pope-francis-marks-12-years-as-head-of-catholic-church-in-hospital",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AFP__20240908__36FR87Z__v1__HighRes__PngVaticanPopeReligion-1741852571.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-13T10:05:16Z",
+        "content": "Pope Francis is marking 12 years as leader of the worlds 1.4 billion Catholics with increasingly positive medical updates four weeks into his hospitalisation for double pneumonia.\r\nFrancis, who was a\u2026 [+5306 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera Staff",
+        "title": "ICC Champions Trophy: Top 5 players; Afridi, Azam, Buttler, Gill, Maxwell",
+        "description": "Ahead of the start of the ICC Champions Trophy in Pakistan on February 19, Al Jazeera picks five players to watch.",
+        "url": "https://www.aljazeera.com/sports/2025/2/15/icc-champions-trophy-top-five-players",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/GettyImages-2199501113-1739639296_c68ec1-1739639901.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-02-15T17:13:07Z",
+        "content": "The International Cricket Councils (ICC) Champions Trophy begins in Pakistan on February 19.\r\nThis edition comes after an eight-year gap since the tournament was last staged in 2017, when Pakistan li\u2026 [+5440 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Jillian Kestler-D'Amours",
+        "title": "Who is Mark Carney, Canada\u2019s new Liberal leader and next prime minister?",
+        "description": "Economist and ex-central banker takes over from Justin Trudeau in face of Trump tariff uncertainty, looming election.",
+        "url": "https://www.aljazeera.com/news/2025/3/9/who-is-mark-carney-canadas-new-liberal-leader-and-next-prime-minister",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-02-26T042720Z_945249265_RC232DA8OL7B_RTRMADP_3_CANADA-POLITICS-1741018351.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-09T22:36:20Z",
+        "content": "Montreal, Canada Canada has its next prime minister.\r\nMark Carney has been elected as the new head of the governing Liberal Party, replacing Justin Trudeau in the midst of historic tensions and fears\u2026 [+12536 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Trump nixes Venezuelan oil concessions granted by predecessor Joe Biden",
+        "description": "Trump took harsh stance towards Venezuela during first term but has shown interest in collaboration in recent months.",
+        "url": "https://www.aljazeera.com/news/2025/2/26/trump-nixes-venezuelan-oil-concessions-granted-by-predecessor-joe-biden",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AP25031762871837-1739228505.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-26T23:28:37Z",
+        "content": "United States President Donald Trump has cancelled oil production concessions granted to Venezuela under his predecessor, Democrat Joe Biden.\r\nIn a social media post on Wednesday, Trump said that the\u2026 [+4217 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "How the US spends taxpayer money as Musk-led DOGE seeks cuts",
+        "description": "Raising taxes could help reduce deficit, but Trump's tax cut pledge will make Musk's aim to slash $1 trillion difficult.",
+        "url": "https://www.aljazeera.com/news/2025/2/25/how-the-us-spends-taxpayer-money-as-musk-led-doge-seeks-cuts",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-24T155253Z_328560867_RC2MYCAODY4V_RTRMADP_3_USA-TRUMP-DOGE-TRANSPORTATION-1740483674.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-25T14:33:51Z",
+        "content": "As the Department of Government Efficiency (DOGE), headed by Elon Musk, searches through federal computer systems to cut programmes funded by taxpayers, the tech billionaire says his team is working \u2026 [+6582 chars]"
+    },
+    {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "author": "BBC World Service",
+        "title": "Assignment: Russia\u2019s new war elite",
+        "description": "Russians who sign up to fight in Ukraine earn big money in salaries and bonuses \u2013 and the Kremlin is even more generous to families of those killed in battle. Average compensation packages for a dead son or husband are worth about US$130,000. In less-wealthy \u2026",
+        "url": "https://www.bbc.co.uk/programmes/p0ktphx2",
+        "urlToImage": "https://ichef.bbci.co.uk/images/ic/1200x675/p0ktk14j.jpg",
+        "publishedAt": "2025-03-04T01:30:00Z",
+        "content": "Russians who sign up to fight in Ukraine earn big money in salaries and bonuses and the Kremlin is even more generous to families of those killed in battle. Average compensation packages for a dead s\u2026 [+1511 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Ukraine ready to accept 30-day US-brokered ceasefire plan",
+        "description": "US says it will 'immediately' resume military aid and intelligence sharing with Kyiv.",
+        "url": "https://www.aljazeera.com/news/2025/3/11/us-lifts-aid-and-intelligence-suspension-as-ukraine-backs-ceasefire-plan",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP25070356018723-1741720286.jpg?resize=1200%2C675",
+        "publishedAt": "2025-03-11T21:04:11Z",
+        "content": "The United States has agreed to resume military aid and intelligence sharing with\u00a0Ukraine\u00a0after Kyiv expressed readiness to accept a 30-day ceasefire in its conflict with Russia.\r\nThe two countries i\u2026 [+3730 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Jillian Kestler-D'Amours",
+        "title": "Canada\u2019s Liberals bounce back after years of decline. What\u2019s going on?",
+        "description": "Polls show Liberals closing gap with opposition Conservatives as Trump's threats, Trudeau's resignation shake things up.",
+        "url": "https://www.aljazeera.com/news/2025/3/4/canadas-liberals-bounce-back-after-years-of-decline-whats-going-on",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-02-12T130525Z_1358412073_RC20TCA7WOUI_RTRMADP_3_CANADA-EU-1741016306.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-04T14:17:25Z",
+        "content": "Montreal, Canada \u00a0Just a few months ago, Canadas governing Liberal Party seemed poised for a resounding 2025 election defeat.\r\nOpinion polls showed Prime Minister Justin Trudeaus party trailing the o\u2026 [+7413 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "China\u2019s Xi hosts summit with business leaders, including Alibaba\u2019s Jack Ma",
+        "description": "Chinese leader meets corporate leaders amid economic challenges including slowing down and high youth unemployment.",
+        "url": "https://www.aljazeera.com/economy/2025/2/17/chinas-xi-hosts-summit-with-business-leaders-including-alibabas-jack-ma",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20241117__1786604551__v3__HighRes__ApecEconomicLeadersWeekInSanFrancisco-1739776349_7d3323-1739777311.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-02-17T07:59:55Z",
+        "content": "Chinese President Xi Jinping has met top corporate leaders, including Alibaba co-founder Jack Ma, at a business symposium in Beijing, state media reported.\r\nSince coming to power more than a decade a\u2026 [+2665 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Germany\u2019s Merz calls for \u2018independence\u2019 from US as conservatives win vote",
+        "description": "Hard-right Alternative for Germany comes second in parliamentary elections, doubling vote share from 2021.",
+        "url": "https://www.aljazeera.com/news/2025/2/24/germanys-merz-calls-for-independence-from-us-as-conservatives-win-vote",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AP25054654209556-1740363896_867668-1740370618.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-02-24T05:06:35Z",
+        "content": "Germanys Friedrich Merz has pledged to achieve independence from the United States after his centre-right alliance won parliamentary elections held amid doubts about US President Donald Trumps commit\u2026 [+4414 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "John Power, Erin Hale",
+        "title": "\u2018Bloodbath\u2019: US stock market sheds $1.75tn after Trump\u2019s recession remarks",
+        "description": "Tech-heavy Nasdaq 100 plunges 3.81 percent, its steepest single-day loss since September 2022.",
+        "url": "https://www.aljazeera.com/economy/2025/3/11/bloodbath-us-stock-market-sheds-1-75tn-after-trumps-recession-remarks",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP25063591855237-1741652331_a5de3c-1741653025.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2025-03-11T02:18:19Z",
+        "content": "The US stock market has shed more than $1.7 trillion in value after United States President Donald Trump declined to rule out the possibility the economy could enter a recession this year.\r\nThe bench\u2026 [+3861 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "John T Psaropoulos",
+        "title": "Alice Weidel: The far-right leader shaping Germany\u2019s AfD",
+        "description": "As Germany heads to the polls, a look at the politician cultivating the anti-immigrant party\u2019s \u2018image of competence\u2019.",
+        "url": "https://www.aljazeera.com/features/2025/2/22/alice-weidel-the-far-right-leader-shaping-germanys-afd",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/alice-Weidel05-1740179296.png?resize=1920%2C1080&quality=80",
+        "publishedAt": "2025-02-22T15:55:59Z",
+        "content": "On January 29, MPs from the far-right Alternative for Germany (AfD) clustered around 46-year-old party leader Alice Weidel in parliament taking selfies. Weidel, dressed in a white rollneck and navy b\u2026 [+11859 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Justin Salhani",
+        "title": "Key takeaways from Syria\u2019s National Dialogue conference",
+        "description": "Syria's National Dialogue paves the way for a constitution - but few details emerge after a day of workshops.",
+        "url": "https://www.aljazeera.com/news/2025/2/26/key-takeaways-from-syrias-national-dialogue-conference",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-25T085534Z_1949195240_RC2J1DA5KS52_RTRMADP_3_SYRIA-POLITICS-DIALOGUE-1740517628.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-26T03:39:10Z",
+        "content": "Syrias National Dialogue, a key moment in the countrys political transition after the fall of President Bashar al-Assad in December, concluded on Tuesday.\r\nA statement delivered at the end of the one\u2026 [+6047 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Jillian Kestler-D'Amours",
+        "title": "\u2018Closest target\u2019: Why is Donald Trump so focused on Canada?",
+        "description": "Tariffs and threats to annex Canada fall into Donald Trump's wider vision for US dominance in the world, experts say.",
+        "url": "https://www.aljazeera.com/news/2025/3/12/closest-target-why-is-donald-trump-so-focused-on-canada",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-03-12T000843Z_2140634259_RC2A8DAS3PCF_RTRMADP_3_USA-IRELAND-1741792060.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-12T17:16:27Z",
+        "content": "Montreal, Canada \u00a0In his first speech as Canadas prime minister-designate, Mark Carney delivered what observers have described as a stunning statement.\r\nI know that these are dark days, Carney told a\u2026 [+7558 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Trump tariffs of 25% on Canada, Mexico set to kick in March 4",
+        "description": "Trump said drugs, especially fentanyl, continued to pour into the US at 'very high' levels, justifying the tariffs.",
+        "url": "https://www.aljazeera.com/economy/2025/2/27/trump-tariffs-of-25-on-canada-mexico-set-to-kick-in-march-4",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20250225__36YH6EP__v1__HighRes__UsPoliticsTrump-1740555703.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-27T19:21:43Z",
+        "content": "United States President Donald Trump has said that his proposed 25-percent tariffs on Mexican and Canadian goods will go into effect on March 4 and threatened an extra 10-percent duty on Chinese impo\u2026 [+3425 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Manchester United unveil plans to build new 100,000 capacity stadium",
+        "description": "The famous English club says the new venue will form the centrepiece of the regeneration of the Old Trafford area.",
+        "url": "https://www.aljazeera.com/sports/2025/3/11/manchester-united-unveil-plans-to-build-new-100000-capacity-stadium",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP5090439471481448-1741689320.jpg?resize=1600%2C1080",
+        "publishedAt": "2025-03-11T10:40:50Z",
+        "content": "Manchester United plan to build a new two billion pound ($2.59 billion) 100,000-seat stadium that will be the biggest in Britain, next to the existing Old Trafford, the club announced.\r\nToday marks t\u2026 [+1400 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Seven takeaways from Donald Trump\u2019s speech to US Congress",
+        "description": "As he reshapes the US government and upends old alliances, Trump says he's just getting started.",
+        "url": "https://www.aljazeera.com/news/2025/3/5/seven-takeaways-from-donald-trumps-speech-to-us-congress",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/2025-03-05T033441Z_1032570553_RC2R6DAL0G39_RTRMADP_3_USA-TRUMP-CONGRESS-1741145790.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-05T06:34:38Z",
+        "content": "In a lengthy speech before both houses of the United States Congress, President Donald Trump claimed that his return to office marked the most successful era in the history of our country.\r\nAddressin\u2026 [+7483 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Argentina mourns 16 killed in floods",
+        "description": "Government pledges $9.2m in financial aid for Bahia Blanca, a port city of 300,000 people south of Buenos Aires.",
+        "url": "https://www.aljazeera.com/news/2025/3/10/argentina-mourns-16-killed-in-floods",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/12877489-1741593089.jpg?resize=1200%2C675",
+        "publishedAt": "2025-03-10T09:29:09Z",
+        "content": "Argentinas President Javier Milei has declared a period of mourning after a flash flood in the port city of Bahia Blanca killed at least 16 people, with more still missing.\r\nThe presidents office ann\u2026 [+1375 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera Staff",
+        "title": "Trump\u2019s \u2018gold\u2019 visa: Who qualifies, what it costs and why it\u2019s divisive",
+        "description": "Foreigners will soon be able to buy US residency \u2013 and a pathway to citizenship \u2013 for about $5m, Trump says.",
+        "url": "https://www.aljazeera.com/news/2025/2/26/trumps-gold-visa-who-qualifies-what-it-costs-and-why-its-divisive",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20250225__36YH6EP__v1__HighRes__UsPoliticsTrump-1740555703.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-26T09:30:19Z",
+        "content": "United States President Donald Trump has announced plans to sell $5m gold card resident permits to foreigners a programme that would also come with a route to citizenship.\r\nThe high-dollar visa would\u2026 [+4222 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera Staff",
+        "title": "\u2018Public execution\u2019: The Israeli checkpoint terrorising a Palestinian town",
+        "description": "Israel put a checkpoint on Deir Sharaf's main street in October 2022, spreading fear around the village.",
+        "url": "https://www.aljazeera.com/features/2025/3/5/public-execution-the-israeli-checkpoint-terrorising-a-palestinian-town",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2023-12-14T105240Z_1697264677_RC2254AP3JIO_RTRMADP_3_ISRAEL-PALESTINIANS-BRITAIN-SETTLERS-1740592550.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-05T09:32:03Z",
+        "content": "Deir Sharaf, occupied West Bank An Israeli military checkpoint dominates the lives of the villagers of Deir Sharaf, who already live in the shadow of an illegal Israeli settlement.\r\nThe permanently c\u2026 [+9672 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Fact check: President Donald Trump\u2019s speech to Congress",
+        "description": "In his Congress speech, Trump made claims about Mexico's extradition of drug lords, aid to Ukraine and immigration.",
+        "url": "https://www.aljazeera.com/news/2025/3/5/fact-check-president-donald-trumps-speech-to-congress",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP25064171972486-1741152287.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-03-05T12:18:20Z",
+        "content": "President Donald Trump recapped six weeks of aggressive efforts to cut the federal workforce, reorganise the economy and reorient foreign policy in his first address to a joint session of the United \u2026 [+10609 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Hanna Duggal",
+        "title": "Charting the rise of Germany\u2019s far-right AfD party",
+        "description": "The AfD doubles its vote share to 20.8 percent in weekend elections and becomes Germany\u2019s second-largest party.",
+        "url": "https://www.aljazeera.com/news/2025/2/24/charting-the-rise-of-germanys-far-right-afd-party",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/INTERACTIVE-GERMAN-ELECTION-FAR-RIGHT-COVER-2025-FEB-23-2025-copy-1740389300.png?resize=1200%2C630",
+        "publishedAt": "2025-02-24T13:52:45Z",
+        "content": "In a historic shift in Germanys political landscape, the far-right Alternative for Germany (AfD) has surged to become the second largest party in the Bundestag, winning 20.8 percent of the vote in fe\u2026 [+4170 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Euan Wallace",
+        "title": "\u2018Everyone wants to go back home\u2019: Inside Catatumbo\u2019s displacement crisis",
+        "description": "In Catatumbo, fighting has forced over 55,000 people from their homes. What does it mean for Colombia\u2019s peace process?",
+        "url": "https://www.aljazeera.com/news/longform/2025/2/26/everyone-wants-to-go-back-home-inside-catatumbos-displacement-crisis",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/DSC08412-Enhanced-NR-1740501846.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-26T15:11:54Z",
+        "content": "Situated on the border with Venezuela, Cucuta is now a temporary home to 27,000 of the people displaced in the current spate of violence.\r\nIn response to the conflict, the General Santander Stadium h\u2026 [+2570 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "EU weighs $841bn \u2018rearm\u2019 Europe plan to counter possible US disengagement",
+        "description": "European Commission President Ursula von der Leyen warns against 'a clear and present danger' before Europe.",
+        "url": "https://www.aljazeera.com/news/2025/3/4/eu-weighs-841bn-rearm-europe-plan-to-counter-possible-us-disengagement",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/03/AFP__20250304__36Z92NP__v1__Preview__BelgiumEuPoliticsDefence-1741091320.jpg?resize=1200%2C630",
+        "publishedAt": "2025-03-04T12:03:57Z",
+        "content": "European Commission (EC) President Ursula von der Leyen has proposed a five-part plan to mobilise some 800bn euros ($842bn) to beef up Europes defence and provide immediate military support to Ukrain\u2026 [+2160 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera Staff",
+        "title": "Key takeaways from Donald Trump\u2019s first cabinet meeting with Elon Musk",
+        "description": "Musk defended DOGE attempts to fire federal employees, while Trump said Russia would have to make concessions for peace.",
+        "url": "https://www.aljazeera.com/news/2025/2/26/key-takeaways-from-donald-trumps-first-cabinet-meeting-with-elon-musk",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-26T173018Z_2133553214_RC2H2DAR3NGH_RTRMADP_3_USA-TRUMP-1740592291.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-26T20:53:06Z",
+        "content": "United States President Donald Trump has held the first cabinet meeting of his second term, surrounded by allies like Secretary of Commerce Howard Lutnick and Secretary of State Marco Rubio.\r\nBut one\u2026 [+11996 chars]"
+    },
+    {
+        "source": {
+            "id": "al-jazeera-english",
+            "name": "Al Jazeera English"
+        },
+        "author": "Othman Moqbel",
+        "title": "Gaza urgently needs a more effective humanitarian approach",
+        "description": "Palestinian families need to be supported in a way that affords them dignity and hope.",
+        "url": "https://www.aljazeera.com/opinions/2025/2/19/gaza-urgently-needs-a-more-effective-humanitarian-approach",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2025/02/2025-02-13T195238Z_2016679840_RC2OTCAVGUJY_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-CEASEFIRE-AID-1739528816.jpg?resize=1920%2C1440",
+        "publishedAt": "2025-02-19T12:18:17Z",
+        "content": "The ceasefire agreement in Gaza has now held for a month. There have been critical moments and violations, but the mediators have so far managed to keep the deal alive.\r\nThis has allowed many of the \u2026 [+6464 chars]"
+    }
+]
