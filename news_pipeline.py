@@ -4,43 +4,36 @@ import time
 import os
 import json
 
-urls = []
+def get_urls(api_key, site, params):
 
-API_KEY = os.getenv("NEWS_API_KEY")
-site = "https://newsapi.org/v2/everything"
+    urls = []
 
-params = {
-    'q' : 'geopolitics OR international affairs OR diplomacy OR war OR global economy',
-    'apiKey' : API_KEY,
-    'language' : 'en',
-    'sources' : "bbc-news, al-jazeera-english, the-guardian-uk, reuters"
-}
+    resp = requests.get(site,params=params)
+    print(resp.status_code)
 
-resp = requests.get(site,params=params)
+    articles = resp.json()['articles']
 
-print(resp.status_code)
+    for i in articles:
+        print(i['url'])
+        urls.append(i['url'])
 
-print(resp.json()['totalResults'])
-print(resp.json()['articles'])
+    print(urls)
+    print(len(urls))
 
-print()
+    return urls
 
-articles = resp.json()['articles']
+# print(resp.json()['totalResults'])
+# print(resp.json()['articles'])
 
-for i in articles:
 
-    print(i['url'])
-    urls.append(i['url'])
 
-print(urls)
-print(len(urls))
+
+
+
+
 
 # with open('test.txt', 'w') as f1:
 #
 #     json.dump(resp.json()['articles'], f1, indent=4)
 
-
-
-
-print(API_KEY)
 
