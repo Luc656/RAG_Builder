@@ -19,3 +19,22 @@ class NewsScraper:
             self.soup = BeautifulSoup(self.url, 'html.parser')
         else:
             raise Exception(f"Failed to fetch page: {self.url}")
+
+    def extract_with_newspaper(self):
+        article = Article(self.url)
+        article.download()
+        article.parse()
+
+        return {
+            "title": article.title,
+            "text": article.text,
+            "authors": article.authors,
+            "publish_date": article.publish_date,
+            "url": self.url
+        }
+
+    def parse(self):
+        title = self.soup.find('h1').get_text(strip=True) if self.soup.find('h1') else None
+        paras = self.soup.find_all('p')
+        text = '\n'.join(p.get_text(strip=True) for p in paras)
+        return {"title": title, "text": text, "url": self.url}
