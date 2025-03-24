@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS images (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    image BLOB NOT NULL,
+    artist TEXT,
+    location TEXT,
+    [date] TIMESTAMP,
+    ingestion_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+
