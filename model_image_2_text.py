@@ -5,6 +5,7 @@ model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
     "Qwen/Qwen2.5-VL-32B-Instruct", torch_dtype="auto", device_map="auto"
 )
 
+
 processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-32B-Instruct")
 
 message = [
