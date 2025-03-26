@@ -6,6 +6,7 @@ scraper = NewsScraper()
 API_KEY = os.getenv("NEWS_API_KEY")
 site = "https://newsapi.org/v2/everything"
 
+
 params = {
     'q' : 'geopolitics OR international affairs OR diplomacy OR war OR global economy',
     'apiKey' : API_KEY,
