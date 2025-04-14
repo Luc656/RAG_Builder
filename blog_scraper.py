@@ -28,3 +28,31 @@ class BlogScraper:
         except requests.RequestException as e:
             print(f"error fetching {url}:{e}")
             return None
+
+    def extract_posts(self, soup, post_selector, title_selector, link_selector, content_selector=None):
+        posts = []
+        for post in soup.select(post_selector):
+            title = post.select_one(title_selector)
+            link = post.select_one(link_selector)
+
+            post_data = {
+                'title': title.get_text(strip=True) if title else "No Title",
+                'link': urljoin(self.base_url, link['href']) if link else "No Link"
+            }
+
+            if content_selector:
+                content = post.select_one(content_selector)
+                post_data['content'] = content.get_text(strip=True) if content else "No Content"
+
+            posts.append(post_data)
+        return posts
+
+
+    def scrape(self, post, title, link, content, url):
+
+        url = url or self.base_url
+        soup = self.get_page(url)
+
+        if soup:
+            return self.extract_posts(soup, posst, title, link, content, url)
+        return []
