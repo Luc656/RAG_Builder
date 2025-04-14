@@ -2,13 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
-blogs = [
-    'https://www.myitaliandiaries.com/my-favourite-things-to-do-in-livorno/',
-    'https://www.myitaliandiaries.com/things-to-do-in-ferrara-europes-first-modern-city/',
-    'https://www.myitaliandiaries.com/easy-day-trips-from-venice-by-train/',
-    'https://www.theblondeabroad.com/best-things-to-do-on-the-amalfi-coast/'
-]
-
 class BlogScraper:
 
     def __init__(self, base_url, headers=None):
@@ -54,5 +47,5 @@ class BlogScraper:
         soup = self.get_page(url)
 
         if soup:
-            return self.extract_posts(soup, posst, title, link, content, url)
+            return self.extract_posts(soup, post, title, link, content)
         return []
