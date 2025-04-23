@@ -24,17 +24,24 @@ class BlogScraper:
 
     def extract_posts(self, soup, post_selector, title_selector, link_selector, content_selector=None):
         posts = []
+        print()
+        print(1)
         for post in soup.select(post_selector):
             title = post.select_one(title_selector)
+            print(f'title: {title}')
             link = post.select_one(link_selector)
+            print(f'link: {link}')
 
             post_data = {
                 'title': title.get_text(strip=True) if title else "No Title",
                 'link': urljoin(self.base_url, link['href']) if link else "No Link"
             }
 
+            print(post_data)
+
             if content_selector:
                 content = post.select_one(content_selector)
+                print(f'content: {content}')
                 post_data['content'] = content.get_text(strip=True) if content else "No Content"
 
             posts.append(post_data)
@@ -44,8 +51,12 @@ class BlogScraper:
     def scrape(self, post, title, link, content, url):
 
         url = url or self.base_url
+        print(f'url: {url}')
         soup = self.get_page(url)
+        print(f'soup:{soup}')
 
         if soup:
+            print('got soup')
             return self.extract_posts(soup, post, title, link, content)
+        print('no soup')
         return []
