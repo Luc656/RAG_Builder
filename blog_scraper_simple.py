@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from typing import List, Dict, Tuple
 
 class WebScraper:
-    def init(self, user_agent=None):
+    def __init__(self, user_agent=None):
 
         self.session = requests.Session()
         if user_agent:
