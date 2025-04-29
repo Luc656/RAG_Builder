@@ -15,5 +15,3 @@ xx = scraper.scrape(url=blogs[0])
 print(xx)
 
 
-print(xx)
-
