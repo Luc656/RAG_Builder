@@ -21,15 +21,16 @@ def split_text(text, max_tokens=200):
             curr_len += sen_len
 
     if curr_chunk:
-        chunks.append(' '.join(curr_chink))
+        chunks.append(' '.join(curr_chunk))
     return chunks
 
 ########## 2. Embed #########
 
-def transform(doc)
+def transform(chunks):
 
     model = SentenceTransformer('all-MiniLM-L6-v2')
-    chunks = split_text(doc)
+
+    print('creating embeddings....')
 
     embeddings = model.encode(chunks, convert_to_tensor=True)
 
