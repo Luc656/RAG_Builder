@@ -1,3 +1,4 @@
+from blog_pipeline_v2 import Pipeline
 from blog_scraper_simple import WebScraper
 
 
@@ -8,10 +9,14 @@ blogs = [
     'https://www.theblondeabroad.com/best-things-to-do-on-the-amalfi-coast/'
 ]
 
-scraper = WebScraper()
-print(f'blog 0 = {blogs[0]}')
-xx = scraper.scrape(url=blogs[0])
+if __name__ == '__main__':
 
-print(xx)
+    scraper = WebScraper()
+    doc = scraper.scrape(url=blogs[0])
+
+    pipeline = Pipeline(doc['body'])
+
+
+    print(xx)
 
 

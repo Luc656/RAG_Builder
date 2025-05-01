@@ -27,12 +27,13 @@ class WebScraper:
 
             return {
                 'titles': titles,
-                'body': body
+                'body': body,
+                'url': url
             }
 
         except requests.exceptions.RequestException as e:
             print(f"Error fetching the webpage: {e}")
-            return {'titles': [], 'body': []}
+            return {'titles': [], 'body': [], 'url': []}
         except Exception as e:
             print(f"Error during scraping: {e}")
-            return {'titles': [], 'body': []}
+            return {'titles': [], 'body': [], 'url': []}
