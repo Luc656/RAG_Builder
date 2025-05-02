@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from typing import List, Dict, Tuple
 
 class WebScraper:
     def __init__(self, user_agent=None):

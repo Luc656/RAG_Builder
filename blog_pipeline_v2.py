@@ -47,11 +47,15 @@ class Pipeline:
         if curr_chunk:
             self.chunks.append(' '.join(curr_chunk))
 
+        print('chunks: ', self.chunks)
+
     def transform(self):
 
         print('creating embeddings....')
 
         self.embeddings = self.embed_model.encode(self.chunks, convert_to_tensor=True)
+
+        print('embeds: ', self.embeddings)
 
     def insert(self):
 
