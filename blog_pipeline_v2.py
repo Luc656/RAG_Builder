@@ -23,6 +23,7 @@ class Pipeline:
         self.weaviate_client = weaviate.Client(weaviate_client)
         self.class_name = class_name
         self.chunks = None
+        self.embeddings = None
 
     def split_text(self, max_tokens=200):
 
@@ -50,9 +51,7 @@ class Pipeline:
 
         print('creating embeddings....')
 
-        embeddings = self.embed_model.encode(self.chunks, convert_to_tensor=True)
-
-        return embeddings
+        self.embeddings = self.embed_model.encode(self.chunks, convert_to_tensor=True)
 
     def insert(self):
 
@@ -70,7 +69,7 @@ class Pipeline:
                 'vectorizer': 'none'
             })
 
-        for i, (chunk, vector) in enumerate(zip(chunks, embeddings)):
+        for i, (chunk, vector) in enumerate(zip(self.chunks, self.embeddings)):
             self.weaviate_client.data_object.create(
                 data_object={
                     "text": chunk,
