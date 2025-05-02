@@ -14,9 +14,10 @@ if __name__ == '__main__':
     scraper = WebScraper()
     doc = scraper.scrape(url=blogs[0])
 
-    pipeline = Pipeline(doc['body'])
+    pipeline = Pipeline(doc['body'], doc['titles'], None, doc['url'])
 
-
-    print(xx)
+    pipeline.split_text()
+    pipeline.transform()
+    pipeline.insert()
 
 

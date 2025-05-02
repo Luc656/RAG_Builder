@@ -22,7 +22,7 @@ class Pipeline:
         self.embed_model = SentenceTransformer(embed_model)
         self.weaviate_client = weaviate.Client(weaviate_client)
         self.class_name = class_name
-        self.chunks = None
+        self.chunks = None # each instance can only hold & transform one article?
         self.embeddings = None
 
     def split_text(self, max_tokens=200):
