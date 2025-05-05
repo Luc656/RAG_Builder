@@ -11,7 +11,8 @@ class Pipeline:
                  doc_tags,
                  doc_url,
                  embed_model='all-MiniLM-L6-v2',
-                 weaviate_client='http://localhost:8080',
+                 weaviate_url='http://localhost:8080',
+                 weaviate_grpc_port=50051,  # Default gRPC port for Weaviate
                  class_name='DocChunk'):
 
         self.doc_body = doc_body
@@ -20,10 +21,16 @@ class Pipeline:
         self.doc_url = doc_url
         self.doc_created_at = None
         self.embed_model = SentenceTransformer(embed_model)
-        self.weaviate_client = weaviate.Client(weaviate_client)
+        #self.weaviate_client = weaviate.Client(weaviate_url)
         self.class_name = class_name
         self.chunks = None # each instance can only hold & transform one article?
         self.embeddings = None
+        self.weaviate_client = weaviate.WeaviateClient(
+            connection_params=weaviate.connect.ConnectionParams.from_url(
+                url=weaviate_url,
+                grpc_port=weaviate_grpc_port
+            )
+        )
 
     def split_text(self, max_tokens=200):
 
@@ -58,33 +65,50 @@ class Pipeline:
         print('embeds: ', self.embeddings)
 
     def insert(self):
-
-        if not self.weaviate_client.schema.contains({'classes': [{'class': self.class_name}]}):
-            self.weaviate_client.schema.create_class({
-                'class': self.class_name,
-                'properties': [
-                    {'name': 'text', 'dataType': ['text']},
-                    {'name': 'title', 'dataType': ['text']},
-                    {'name': 'url', 'dataType': ['text']},
-                    {'name': 'tags', 'dataType': ['text[]']},
-                    {'name': 'created_at', 'dataType': ['date']}
+        # Check if collection exists and create if it doesn't
+        try:
+            # Try to get the collection (will raise exception if not found)
+            collection = self.weaviate_client.collections.get(self.class_name)
+        except weaviate.exceptions.WeaviateQueryError:
+            # Create the collection with the schema
+            collection = self.weaviate_client.collections.create(
+                name=self.class_name,
+                properties=[
+                    weaviate.Property(name="text", data_type=weaviate.DataType.TEXT),
+                    weaviate.Property(name="title", data_type=weaviate.DataType.TEXT),
+                    weaviate.Property(name="url", data_type=weaviate.DataType.TEXT),
+                    weaviate.Property(name="tags", data_type=weaviate.DataType.TEXT_ARRAY),
+                    weaviate.Property(name="source", data_type=weaviate.DataType.TEXT),
+                    weaviate.Property(name="created_at", data_type=weaviate.DataType.DATE)
                 ],
-                'vectorIndexConfig': {},
-                'vectorizer': 'none'
-            })
+                vectorizer_config=None  # Equivalent to "vectorizer": "none" in v3
+            )
+        else:
+            # If no exception, collection exists
+            collection = self.weaviate_client.collections.get(self.class_name)
+
+        # Create a list of objects to insert in batch
+        objects_to_insert = []
 
         for i, (chunk, vector) in enumerate(zip(self.chunks, self.embeddings)):
-            self.weaviate_client.data_object.create(
-                data_object={
+            objects_to_insert.append({
+                "properties": {
                     "text": chunk,
                     "title": "RAG Overview",
-                    "tags": [], #TODO: this
+                    "tags": [],  # TODO: this
                     "source": "internal_notes.md",
-                    "created_at": f"{datetime.now()}"
+                    "created_at": datetime.now().isoformat()
                 },
-                class_name="DocumentChunk",
-                vector=vector.tolist()
-            )
+                "vector": vector.tolist()
+            })
+
+        # Use batch insertion for better performance
+        with collection.batch.dynamic() as batch:
+            for obj in objects_to_insert:
+                batch.add_object(
+                    properties=obj["properties"],
+                    vector=obj["vector"]
+                )
 
         print('chunks successfully uploaded!')
 
