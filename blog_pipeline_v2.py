@@ -25,18 +25,20 @@ class Pipeline:
         self.class_name = class_name
         self.chunks = None # each instance can only hold & transform one article?
         self.embeddings = None
-        self.weaviate_client = weaviate.WeaviateClient(
-            connection_params=weaviate.connect.ConnectionParams.from_url(
-                url=weaviate_url,
-                grpc_port=weaviate_grpc_port
-            )
-        )
+        self.weaviate_url = weaviate_url
+        # self.weaviate_client = weaviate.WeaviateClient(
+        #     connection_params=weaviate.connect.ConnectionParams.from_url(
+        #         url=weaviate_url,
+        #         grpc_port=weaviate_grpc_port
+        #     )
+        # )
 
     def split_text(self, max_tokens=200):
 
-        # if len(self.doc_body) > 1:
-        #     ' '.join(self.doc_body)
+        if len(self.doc_body) > 1: # body is list of <p> elements, join to 1 string to chunk
+            self.doc_body = ' '.join(self.doc_body)
 
+        #print('body', self.doc_body)
         sentences = re.split(r'(?<=[.!?])\s+', self.doc_body)
         self.chunks, curr_chunk = [], []
 
@@ -65,50 +67,57 @@ class Pipeline:
         print('embeds: ', self.embeddings)
 
     def insert(self):
-        # Check if collection exists and create if it doesn't
-        try:
-            # Try to get the collection (will raise exception if not found)
-            collection = self.weaviate_client.collections.get(self.class_name)
-        except weaviate.exceptions.WeaviateQueryError:
-            # Create the collection with the schema
-            collection = self.weaviate_client.collections.create(
-                name=self.class_name,
-                properties=[
-                    weaviate.Property(name="text", data_type=weaviate.DataType.TEXT),
-                    weaviate.Property(name="title", data_type=weaviate.DataType.TEXT),
-                    weaviate.Property(name="url", data_type=weaviate.DataType.TEXT),
-                    weaviate.Property(name="tags", data_type=weaviate.DataType.TEXT_ARRAY),
-                    weaviate.Property(name="source", data_type=weaviate.DataType.TEXT),
-                    weaviate.Property(name="created_at", data_type=weaviate.DataType.DATE)
-                ],
-                vectorizer_config=None  # Equivalent to "vectorizer": "none" in v3
-            )
-        else:
-            # If no exception, collection exists
-            collection = self.weaviate_client.collections.get(self.class_name)
+        """Insert document chunks using a short-lived connection,minimum resource usage for isolated ops, more conn overhead"""
+        import urllib.parse
 
-        # Create a list of objects to insert in batch
-        objects_to_insert = []
+        # Parse URL components safely
+        parsed_url = urllib.parse.urlparse(self.weaviate_url)
+        secure = parsed_url.scheme == 'https'
+        host = parsed_url.hostname or 'localhost'
+        port = parsed_url.port or (443 if secure else 80)
 
-        for i, (chunk, vector) in enumerate(zip(self.chunks, self.embeddings)):
-            objects_to_insert.append({
-                "properties": {
-                    "text": chunk,
-                    "title": "RAG Overview",
-                    "tags": [],  # TODO: this
-                    "source": "internal_notes.md",
-                    "created_at": datetime.now().isoformat()
-                },
-                "vector": vector.tolist()
-            })
+        # Create connection params for v4.14.1
+        connection_params = weaviate.connect.rest.ConnectionParams(
+            host=host,
+            port=port,
+            secure=secure
+        )
 
-        # Use batch insertion for better performance
-        with collection.batch.dynamic() as batch:
-            for obj in objects_to_insert:
-                batch.add_object(
-                    properties=obj["properties"],
-                    vector=obj["vector"]
+        # Use context manager for automatic connection management
+        with weaviate.WeaviateClient(connection_params=connection_params) as client:
+            # Check if collection exists
+            try:
+                collection = client.collections.get(self.class_name)
+            except weaviate.exceptions.WeaviateQueryError:
+                # Create collection if it doesn't exist
+                collection = client.collections.create(
+                    name=self.class_name,
+                    properties=[
+                        weaviate.Property(name="text", data_type=weaviate.DataType.TEXT),
+                        weaviate.Property(name="title", data_type=weaviate.DataType.TEXT),
+                        weaviate.Property(name="url", data_type=weaviate.DataType.TEXT),
+                        weaviate.Property(name="tags", data_type=weaviate.DataType.TEXT_ARRAY),
+                        weaviate.Property(name="source", data_type=weaviate.DataType.TEXT),
+                        weaviate.Property(name="created_at", data_type=weaviate.DataType.DATE)
+                    ],
+                    vectorizer_config=None
                 )
 
-        print('chunks successfully uploaded!')
+            # Perform batch insertion
+            with collection.batch.dynamic() as batch:
+                for chunk, vector in zip(self.chunks, self.embeddings):
+                    batch.add_object(
+                        properties={
+                            "text": chunk,
+                            "title": self.doc_title,
+                            "tags": self.doc_tags,
+                            "url": self.doc_url,
+                            "source": self.doc_url.split('/')[-1] if self.doc_url else "unknown",
+                            "created_at": datetime.now().isoformat()
+                        },
+                        vector=vector.tolist()
+                    )
+
+            print(f"{len(self.chunks)} chunks successfully uploaded!")
+
 
