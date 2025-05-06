@@ -69,6 +69,9 @@ class Pipeline:
     def insert(self):
         """Insert document chunks using a short-lived connection,minimum resource usage for isolated ops, more conn overhead"""
         import urllib.parse
+        from datetime import datetime
+        import weaviate
+        from weaviate.embedded import EmbeddedOptions
 
         # Parse URL components safely
         parsed_url = urllib.parse.urlparse(self.weaviate_url)
@@ -76,48 +79,80 @@ class Pipeline:
         host = parsed_url.hostname or 'localhost'
         port = parsed_url.port or (443 if secure else 80)
 
-        # Create connection params for v4.14.1
-        connection_params = weaviate.connect.rest.ConnectionParams(
-            host=host,
-            port=port,
-            secure=secure
-        )
+        # For v4.x - Create client with Connection object
+        # This approach doesn't use the deprecated 'rest' module
+        if self.weaviate_url.startswith("http"):
+            # For remote Weaviate
+            # For remote Weaviate
+            # Weaviate requires different ports for HTTP and gRPC
+            # Typically gRPC port is HTTP port + 1 (e.g., 8080 for HTTP, 8081 for gRPC)
+            grpc_port = port + 1  # Default convention: gRPC port = HTTP port + 1
 
-        # Use context manager for automatic connection management
-        with weaviate.WeaviateClient(connection_params=connection_params) as client:
-            # Check if collection exists
+            client = weaviate.connect_to_custom(
+                http_host=host,
+                http_port=port,
+                http_secure=secure,
+                grpc_host=host,
+                grpc_port=grpc_port,  # Must be different from HTTP port
+                grpc_secure=secure
+                # If you need authentication:
+                # auth_credentials=weaviate.auth.AuthApiKey(api_key="your-api-key")
+            )
+        else:
+            # For embedded/local Weaviate
+            client = weaviate.connect_to_embedded(
+                options=EmbeddedOptions()
+            )
+
+        try:
+            # Check if collection exists - v4.x style
             try:
                 collection = client.collections.get(self.class_name)
+                print(f"Collection {self.class_name} exists")
             except weaviate.exceptions.WeaviateQueryError:
-                # Create collection if it doesn't exist
+                # Create collection if it doesn't exist - v4.x style
+                print(f"Creating collection {self.class_name}")
                 collection = client.collections.create(
                     name=self.class_name,
                     properties=[
-                        weaviate.Property(name="text", data_type=weaviate.DataType.TEXT),
-                        weaviate.Property(name="title", data_type=weaviate.DataType.TEXT),
-                        weaviate.Property(name="url", data_type=weaviate.DataType.TEXT),
-                        weaviate.Property(name="tags", data_type=weaviate.DataType.TEXT_ARRAY),
-                        weaviate.Property(name="source", data_type=weaviate.DataType.TEXT),
-                        weaviate.Property(name="created_at", data_type=weaviate.DataType.DATE)
+                        weaviate.classes.properties.Property(name="text",
+                                                             data_type=weaviate.classes.properties.DataType.TEXT),
+                        weaviate.classes.properties.Property(name="title",
+                                                             data_type=weaviate.classes.properties.DataType.TEXT),
+                        weaviate.classes.properties.Property(name="url",
+                                                             data_type=weaviate.classes.properties.DataType.TEXT),
+                        weaviate.classes.properties.Property(name="tags",
+                                                             data_type=weaviate.classes.properties.DataType.TEXT_ARRAY),
+                        weaviate.classes.properties.Property(name="source",
+                                                             data_type=weaviate.classes.properties.DataType.TEXT),
+                        weaviate.classes.properties.Property(name="created_at",
+                                                             data_type=weaviate.classes.properties.DataType.DATE)
                     ],
-                    vectorizer_config=None
+                    vectorizer_config=weaviate.classes.config.Configure.Vectorizer.none()
                 )
 
-            # Perform batch insertion
+            # Perform batch insertion - v4.x style
             with collection.batch.dynamic() as batch:
-                for chunk, vector in zip(self.chunks, self.embeddings):
-                    batch.add_object(
-                        properties={
-                            "text": chunk,
-                            "title": self.doc_title,
-                            "tags": self.doc_tags,
-                            "url": self.doc_url,
-                            "source": self.doc_url.split('/')[-1] if self.doc_url else "unknown",
-                            "created_at": datetime.now().isoformat()
-                        },
-                        vector=vector.tolist()
-                    )
+                for i, (chunk, vector) in enumerate(zip(self.chunks, self.embeddings)):
+                    try:
+                        batch.add_object(
+                            properties={
+                                "text": chunk,
+                                "title": self.doc_title,
+                                "tags": self.doc_tags,
+                                "url": self.doc_url,
+                                "source": self.doc_url.split('/')[-1] if self.doc_url else "unknown",
+                                "created_at": datetime.now().isoformat()
+                            },
+                            vector=vector.tolist()
+                        )
+                    except Exception as e:
+                        print(f"Error adding object {i}: {e}")
 
             print(f"{len(self.chunks)} chunks successfully uploaded!")
+
+        finally:
+            # Close the client connection in v4.x
+            client.close()
 
 
