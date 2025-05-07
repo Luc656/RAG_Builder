@@ -2,6 +2,7 @@ import re
 from sentence_transformers import SentenceTransformer
 import weaviate
 from datetime import datetime
+from weaviate.classes.init import AdditionalConfig
 
 class Pipeline:
 
@@ -67,132 +68,36 @@ class Pipeline:
         print('embeds: ', self.embeddings)
 
     def insert(self):
-        """Insert document chunks using a short-lived connection, minimum resource usage for isolated ops"""
-        import urllib.parse
-        from datetime import datetime
-        import weaviate
-        import os
-        import sys
-
-        print(f"Trying to connect to Weaviate at {self.weaviate_url}")
-
-        # For local development, you might want to start Weaviate automatically
-        # if it's not running (optional)
-        if self.weaviate_url == "http://localhost:8080" and not self._is_weaviate_running():
-            print("Weaviate is not running. Starting embedded instance...")
-            try:
-                client = self._start_embedded_weaviate()
-            except Exception as e:
-                print(f"Failed to start embedded Weaviate: {e}")
-                sys.exit(1)
-        else:
-            # Parse URL components safely
-            parsed_url = urllib.parse.urlparse(self.weaviate_url)
-            secure = parsed_url.scheme == 'https'
-            host = parsed_url.hostname or 'localhost'
-            port = parsed_url.port or (443 if secure else 80)
-
-            print(f"Connecting to Weaviate at {host}:{port} (secure={secure})")
-
-            try:
-                # For v4.x - Create client with correct connection parameters
-                # Check if we should use the HTTP client
-                if port == 8080 and host == 'localhost':
-                    print("Using HTTP client without gRPC for local development")
-                    # Simpler approach for local development
-                    client = weaviate.Client(url=f"{'https' if secure else 'http'}://{host}:{port}")
-                else:
-                    # Full connection with separate HTTP and gRPC ports
-                    grpc_port = port + 1  # Default convention: gRPC port = HTTP port + 1
-
-                    print(f"Using full client with HTTP on port {port} and gRPC on port {grpc_port}")
-                    client = weaviate.connect_to_custom(
-                        http_host=host,
-                        http_port=port,
-                        http_secure=secure,
-                        grpc_host=host,
-                        grpc_port=grpc_port,
-                        grpc_secure=secure
-                    )
-            except Exception as e:
-                print(f"Connection error: {e}")
-                print(f"Please check that Weaviate is running at {self.weaviate_url}")
-                print("You can start Weaviate using Docker with:")
-                print("docker run -d -p 8080:8080 semitechnologies/weaviate:1.19.6")
-                sys.exit(1)
-
-        try:
-            # Check if collection exists - v4.x style
-            try:
-                collection = client.collections.get(self.class_name)
-                print(f"Collection {self.class_name} exists")
-            except weaviate.exceptions.WeaviateQueryError:
-                # Create collection if it doesn't exist - v4.x style
-                print(f"Creating collection {self.class_name}")
-                collection = client.collections.create(
-                    name=self.class_name,
-                    properties=[
-                        weaviate.classes.properties.Property(name="text",
-                                                             data_type=weaviate.classes.properties.DataType.TEXT),
-                        weaviate.classes.properties.Property(name="title",
-                                                             data_type=weaviate.classes.properties.DataType.TEXT),
-                        weaviate.classes.properties.Property(name="url",
-                                                             data_type=weaviate.classes.properties.DataType.TEXT),
-                        weaviate.classes.properties.Property(name="tags",
-                                                             data_type=weaviate.classes.properties.DataType.TEXT_ARRAY),
-                        weaviate.classes.properties.Property(name="source",
-                                                             data_type=weaviate.classes.properties.DataType.TEXT),
-                        weaviate.classes.properties.Property(name="created_at",
-                                                             data_type=weaviate.classes.properties.DataType.DATE)
-                    ],
-                    vectorizer_config=weaviate.classes.config.Configure.Vectorizer.none()
-                )
-
-            # Perform batch insertion - v4.x style
-            with collection.batch.dynamic() as batch:
-                for i, (chunk, vector) in enumerate(zip(self.chunks, self.embeddings)):
-                    try:
-                        batch.add_object(
-                            properties={
-                                "text": chunk,
-                                "title": self.doc_title,
-                                "tags": self.doc_tags,
-                                "url": self.doc_url,
-                                "source": self.doc_url.split('/')[-1] if self.doc_url else "unknown",
-                                "created_at": datetime.now().isoformat()
-                            },
-                            vector=vector.tolist()
-                        )
-                    except Exception as e:
-                        print(f"Error adding object {i}: {e}")
-
-            print(f"{len(self.chunks)} chunks successfully uploaded!")
-
-        finally:
-            # Close the client connection in v4.x
-            client.close()
-
-    def _is_weaviate_running(self):
-        """Check if Weaviate is running at the specified URL"""
-        import requests
-        try:
-            response = requests.get(f"{self.weaviate_url}/.well-known/ready", timeout=2)
-            return response.status_code == 200
-        except:
-            return False
-
-    def _start_embedded_weaviate(self):
-        """Start an embedded Weaviate instance for local development"""
-        import weaviate
-        from weaviate.embedded import EmbeddedOptions
-
-        print("Starting embedded Weaviate instance...")
-        # In v4.14.1, the embedded client doesn't use 'options' parameter
-        client = weaviate.connect_to_embedded(
-            embedded_options=EmbeddedOptions(
-                port=8080,
-                hostname="localhost"
-            )
+        # Connect to a local Weaviate instance
+        client = weaviate.connect_to_custom(
+            http_host="localhost",
+            http_port=8080,
+            http_secure=False,  # This is needed
+            grpc_host="localhost",
+            grpc_port=50051,
+            grpc_secure=False,
+            #additional_config=AdditionalConfig(timeout=30)
         )
-        print("Embedded Weaviate started successfully")
-        return client
+
+        # # Ensure doc_body is chunked
+        # if not self.chunks:
+        #     self.chunks = self.chunk_text(self.doc_body)  # You need to implement this
+
+        # Generate embeddings
+        self.embeddings = self.embed_model.encode(self.chunks).tolist()
+
+        # Add each chunk
+        for chunk, embedding in zip(self.chunks, self.embeddings):
+            properties = {
+                "text": chunk,
+                "title": self.doc_title,
+                "tags": self.doc_tags,
+                "url": self.doc_url,
+                "source": self.doc_url.split('/')[-1] if self.doc_url else "unknown",
+                "created_at": datetime.now().isoformat()
+            }
+
+            client.collections.get(self.class_name).data.insert(
+                properties=properties,
+                vector=embedding
+            )
