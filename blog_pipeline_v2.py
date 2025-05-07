@@ -67,42 +67,59 @@ class Pipeline:
         print('embeds: ', self.embeddings)
 
     def insert(self):
-        """Insert document chunks using a short-lived connection,minimum resource usage for isolated ops, more conn overhead"""
+        """Insert document chunks using a short-lived connection, minimum resource usage for isolated ops"""
         import urllib.parse
         from datetime import datetime
         import weaviate
-        from weaviate.embedded import EmbeddedOptions
+        import os
+        import sys
 
-        # Parse URL components safely
-        parsed_url = urllib.parse.urlparse(self.weaviate_url)
-        secure = parsed_url.scheme == 'https'
-        host = parsed_url.hostname or 'localhost'
-        port = parsed_url.port or (443 if secure else 80)
+        print(f"Trying to connect to Weaviate at {self.weaviate_url}")
 
-        # For v4.x - Create client with Connection object
-        # This approach doesn't use the deprecated 'rest' module
-        if self.weaviate_url.startswith("http"):
-            # For remote Weaviate
-            # For remote Weaviate
-            # Weaviate requires different ports for HTTP and gRPC
-            # Typically gRPC port is HTTP port + 1 (e.g., 8080 for HTTP, 8081 for gRPC)
-            grpc_port = port + 1  # Default convention: gRPC port = HTTP port + 1
-
-            client = weaviate.connect_to_custom(
-                http_host=host,
-                http_port=port,
-                http_secure=secure,
-                grpc_host=host,
-                grpc_port=grpc_port,  # Must be different from HTTP port
-                grpc_secure=secure
-                # If you need authentication:
-                # auth_credentials=weaviate.auth.AuthApiKey(api_key="your-api-key")
-            )
+        # For local development, you might want to start Weaviate automatically
+        # if it's not running (optional)
+        if self.weaviate_url == "http://localhost:8080" and not self._is_weaviate_running():
+            print("Weaviate is not running. Starting embedded instance...")
+            try:
+                client = self._start_embedded_weaviate()
+            except Exception as e:
+                print(f"Failed to start embedded Weaviate: {e}")
+                sys.exit(1)
         else:
-            # For embedded/local Weaviate
-            client = weaviate.connect_to_embedded(
-                options=EmbeddedOptions()
-            )
+            # Parse URL components safely
+            parsed_url = urllib.parse.urlparse(self.weaviate_url)
+            secure = parsed_url.scheme == 'https'
+            host = parsed_url.hostname or 'localhost'
+            port = parsed_url.port or (443 if secure else 80)
+
+            print(f"Connecting to Weaviate at {host}:{port} (secure={secure})")
+
+            try:
+                # For v4.x - Create client with correct connection parameters
+                # Check if we should use the HTTP client
+                if port == 8080 and host == 'localhost':
+                    print("Using HTTP client without gRPC for local development")
+                    # Simpler approach for local development
+                    client = weaviate.Client(url=f"{'https' if secure else 'http'}://{host}:{port}")
+                else:
+                    # Full connection with separate HTTP and gRPC ports
+                    grpc_port = port + 1  # Default convention: gRPC port = HTTP port + 1
+
+                    print(f"Using full client with HTTP on port {port} and gRPC on port {grpc_port}")
+                    client = weaviate.connect_to_custom(
+                        http_host=host,
+                        http_port=port,
+                        http_secure=secure,
+                        grpc_host=host,
+                        grpc_port=grpc_port,
+                        grpc_secure=secure
+                    )
+            except Exception as e:
+                print(f"Connection error: {e}")
+                print(f"Please check that Weaviate is running at {self.weaviate_url}")
+                print("You can start Weaviate using Docker with:")
+                print("docker run -d -p 8080:8080 semitechnologies/weaviate:1.19.6")
+                sys.exit(1)
 
         try:
             # Check if collection exists - v4.x style
@@ -155,4 +172,27 @@ class Pipeline:
             # Close the client connection in v4.x
             client.close()
 
+    def _is_weaviate_running(self):
+        """Check if Weaviate is running at the specified URL"""
+        import requests
+        try:
+            response = requests.get(f"{self.weaviate_url}/.well-known/ready", timeout=2)
+            return response.status_code == 200
+        except:
+            return False
 
+    def _start_embedded_weaviate(self):
+        """Start an embedded Weaviate instance for local development"""
+        import weaviate
+        from weaviate.embedded import EmbeddedOptions
+
+        print("Starting embedded Weaviate instance...")
+        # In v4.14.1, the embedded client doesn't use 'options' parameter
+        client = weaviate.connect_to_embedded(
+            embedded_options=EmbeddedOptions(
+                port=8080,
+                hostname="localhost"
+            )
+        )
+        print("Embedded Weaviate started successfully")
+        return client
