@@ -101,3 +101,5 @@ class Pipeline:
                 properties=properties,
                 vector=embedding
             )
+
+        client.close()
