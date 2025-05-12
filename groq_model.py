@@ -1,7 +1,7 @@
 from groq import Groq
 import os
 
-api_key = os.environ.get("GROQ_API_KEY")
+api_key = os.environ.get("GROQ_API_KEY") # TODO: get KEY again in env
 print(api_key)
 
 client = Groq(
@@ -21,3 +21,5 @@ chat = client.chat.completions.create(
 
 print(chat)
 print(chat.choices[0].message.content)
+
+# define which index search used to return correct embeddings
