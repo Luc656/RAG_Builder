@@ -34,6 +34,7 @@ class Pipeline:
         #     )
         # )
 
+    # Todo: chunk metadata from blog, index in blog and totoal in blog
     def split_text(self, max_tokens=200):
 
         if len(self.doc_body) > 1: # body is list of <p> elements, join to 1 string to chunk
