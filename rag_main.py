@@ -5,12 +5,12 @@ from blog_pipeline_v2 import Pipeline
 pipeline = Pipeline()
 
 # make this inherited ???
-class RAG:
+class Retriever:
 
     def __init__(self):
         pass
 
-    def retreive_chunks(self, query, k=5, metadata_filter=None):
+    def retrieve_chunks(self, query, k=5, metadata_filter=None):
 
         user_query = pipeline.split_text(query)
         user_query = pipeline.transform(user_query)
