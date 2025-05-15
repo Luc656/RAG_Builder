@@ -1,4 +1,4 @@
-from blog_pipeline_v2 import Pipeline
+from rag_in import Pipeline
 from blog_scraper_simple import WebScraper
 
 
