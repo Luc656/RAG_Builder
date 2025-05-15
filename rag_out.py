@@ -7,18 +7,21 @@ pipeline = Pipeline()
 # make this inherited ???
 class Out(Pipeline):
 
-    def __init__(self,client):
+    def __init__(self, client):
         self.client = client
+        super().__init__()
 
     def retrieve_chunks(self, query, k=5, metadata_filter=None):
 
-        user_query = pipeline.split_text(query)
-        user_query = pipeline.transform(user_query)
+        self.doc_body = query
+
+        self.split_text()
+        self.transform()
 
         query_builder = self.client.query.get("DocumentChunk", ["text", "title", "tags", "source"])
 
         query_builder = query_builder.with_near_vector({
-            'vector': user_query.tolist()
+            'vector': self.embeddings.tolist()
         }).with_limit(k)
 
         if metadata_filter:

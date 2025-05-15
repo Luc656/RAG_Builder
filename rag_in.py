@@ -8,19 +8,19 @@ from weaviate.classes.init import AdditionalConfig
 class Pipeline:
 
     def __init__(self,
-                 doc_body,
-                 doc_title,
-                 doc_tags,
-                 doc_url,
+                 # doc_body,
+                 # doc_title,
+                 # doc_tags,
+                 # doc_url,
                  embed_model='all-MiniLM-L6-v2',
                  weaviate_url='http://localhost:8080',
                  weaviate_grpc_port=50051,  # Default gRPC port for Weaviate
                  class_name='DocChunk'):
 
-        self.doc_body = doc_body
-        self.doc_title = doc_title
-        self.doc_tags = doc_tags
-        self.doc_url = doc_url
+        self.doc_body = None
+        self.doc_title = None
+        self.doc_tags = None
+        self.doc_url = None
         self.doc_created_at = None
         self.embed_model = SentenceTransformer(embed_model)
         #self.weaviate_client = weaviate.Client(weaviate_url)
@@ -28,12 +28,6 @@ class Pipeline:
         self.chunks = None # each instance can only hold & transform one article?
         self.embeddings = None
         self.weaviate_url = weaviate_url
-        # self.weaviate_client = weaviate.WeaviateClient(
-        #     connection_params=weaviate.connect.ConnectionParams.from_url(
-        #         url=weaviate_url,
-        #         grpc_port=weaviate_grpc_port
-        #     )
-        # )
 
     # Todo: chunk metadata from blog, index in blog and total in blog
     def split_text(self, max_tokens=200):
