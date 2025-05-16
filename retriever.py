@@ -1,11 +1,11 @@
 import weaviate
 from sentence_transformers import SentenceTransformer
-from rag_in import Pipeline
+from processor import Processor
 
-pipeline = Pipeline()
+#pipeline = Processor()
 
 # make this inherited ???
-class Out(Pipeline):
+class Retriever(Processor):
 
     def __init__(self, client):
         self.client = client

@@ -1,4 +1,5 @@
-from processor import Pipeline
+from processor import Processor
+from retriever import Retriever
 from blog_scraper_simple import WebScraper
 
 
@@ -9,17 +10,15 @@ blogs = [
     'https://www.theblondeabroad.com/best-things-to-do-on-the-amalfi-coast/'
 ]
 
-if __name__ == '__main__':
+def in_pipeline(doc):
 
     scraper = WebScraper()
-    doc = scraper.scrape(url=blogs[0])
+    doc = scraper.scrape(doc)
 
     print(doc['body'], doc['titles'], None, doc['url'])
 
-    pipeline = Pipeline(doc['body'], doc['titles'], None, doc['url'])
+    processor = Processor()
 
-    pipeline.split_text()
-    pipeline.transform()
-    pipeline.insert()
-
-
+    processor.split_text()
+    processor.transform()
+    processor.insert()

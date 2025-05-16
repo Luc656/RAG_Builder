@@ -5,7 +5,7 @@ from datetime import datetime
 from weaviate.classes.init import AdditionalConfig
 
 # todo: should some of these be static ???
-class Pipeline:
+class Processor:
 
     def __init__(self,
                  # doc_body,
