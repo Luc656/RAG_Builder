@@ -9,5 +9,13 @@ from blog_scraper_simple import WebScraper
 #   4. send to LLM
 
 def out_pipeline():
-    pass
+
+    user_query = input('How can I help you today?')
+
+    retriever = Retriever()
+
+    retriever.retrieve_chunks()
+    retriever.format_context()
+    prompt = retriever.build_prompt()
+
 

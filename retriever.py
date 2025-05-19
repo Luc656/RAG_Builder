@@ -9,6 +9,8 @@ class Retriever(Processor):
 
     def __init__(self, client):
         self.client = client
+        self.results = None
+        self.context = None
         super().__init__()
 
     def retrieve_chunks(self, query, k=5, metadata_filter=None):
@@ -28,30 +30,30 @@ class Retriever(Processor):
             query_builder = query_builder.with_where(metadata_filter)
 
         result = query_builder.do()
-        return result['data']['Get']['DocumentChunk']
+        self.results = result['data']['Get']['DocumentChunk']
 
-    @staticmethod
-    def format_context(chunks):
+    #@staticmethod
+    def format_context(self):
 
         context = ''
-        for i, chunk in enumerate(chunks):
+        for i, chunk in enumerate(self.results):
             title = chunk.get('title', None)
             source = chunk.get('source', None)
             text = chunk['text']
             context += f"### Chunk {i + 1}\nTitle: {title}\nSource: {source}\nContent: {text}\n\n"
-        return context
+        self.context = context
 
-    @staticmethod
-    def build_prompt(context, user_query):
+    #@staticmethod
+    def build_prompt(self):
         prompt = f"""
         You are a helpful assistant. Use the context below to answer the question. Answer in terms of travel only.
 
         Context:
         ---------
-        {context}
+        {self.context}
         ---------
 
-        Question: {user_query}
+        Question: {self.doc_body}
 
         Answer:
         """
