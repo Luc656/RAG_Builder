@@ -2,24 +2,30 @@ from groq import Groq
 import os
 
 api_key = os.environ.get("GROQ_API_KEY") # TODO: get KEY again in env
-print(api_key)
+#print(api_key)
 
-client = Groq(
-    api_key=api_key
-)
+def groq_talk(prompt, key):
 
-chat = client.chat.completions.create(
-    messages=[
-        {
-            "role":"user",
-            "content":"Tell me about Kyrgyzstan"
-        }
-    ],
-    model="llama-3.3-70b-versatile",
-    stream=False
-)
+    client = Groq(
+        api_key=key
+    )
 
-print(chat)
-print(chat.choices[0].message.content)
+    chat = client.chat.completions.create(
+        messages=[
+            {
+                "role":"user",
+                "content":f"{prompt}"
+            }
+        ],
+        model="llama-3.3-70b-versatile",
+        stream=False
+    )
 
-# define which index search used to return correct embeddings
+    print(chat)
+    print(chat.choices[0].message.content)
+
+    return chat.choices[0].message.content
+
+
+
+    # define which index search used to return correct embeddings

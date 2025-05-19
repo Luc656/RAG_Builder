@@ -1,6 +1,7 @@
 from processor import Processor
 from retriever import Retriever
 from blog_scraper_simple import WebScraper
+from groq_model import api_key, groq_talk
 
 # steps:
 #   1. accept query
@@ -17,5 +18,7 @@ def out_pipeline():
     retriever.retrieve_chunks()
     retriever.format_context()
     prompt = retriever.build_prompt()
+
+    message = groq_talk(prompt, api_key)
 
 
