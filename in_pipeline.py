@@ -1,14 +1,10 @@
 from processor import Processor
 from retriever import Retriever
 from blog_scraper_simple import WebScraper
+import json
 
-
-blogs = [
-    'https://www.myitaliandiaries.com/my-favourite-things-to-do-in-livorno/',
-    'https://www.myitaliandiaries.com/things-to-do-in-ferrara-europes-first-modern-city/',
-    'https://www.myitaliandiaries.com/easy-day-trips-from-venice-by-train/',
-    'https://www.theblondeabroad.com/best-things-to-do-on-the-amalfi-coast/'
-]
+with open('Docs.json', 'r') as f1:
+    docs = json.load(f1)
 
 def in_pipeline(doc):
 

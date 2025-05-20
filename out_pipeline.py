@@ -21,4 +21,6 @@ def out_pipeline():
 
     message = groq_talk(prompt, api_key)
 
+    print(message)
+
 
