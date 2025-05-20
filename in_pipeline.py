@@ -3,18 +3,32 @@ from retriever import Retriever
 from blog_scraper_simple import WebScraper
 import json
 
-with open('Docs.json', 'r') as f1:
-    docs = json.load(f1)
+def in_pipeline(url):
 
-def in_pipeline(doc):
+    with open('Docs.json', 'w') as f1:
+        scrapped_docs = json.load(f1)
 
-    scraper = WebScraper()
-    doc = scraper.scrape(doc)
+        exists = url in scrapped_docs
 
-    print(doc['body'], doc['titles'], None, doc['url'])
+        if not exists:
 
-    processor = Processor()
+            scraper = WebScraper()
+            doc = scraper.scrape(url)
 
-    processor.split_text()
-    processor.transform()
-    processor.insert()
+            print(doc['body'], doc['titles'], None, doc['url'])
+
+            processor = Processor()
+
+            processor.split_text()
+            processor.transform()
+            processor.insert()
+
+            scrapped_docs[url] = 'true'
+
+        else:
+            print('Document already scraped...')
+
+if __name__ == "__main__":
+
+    user_link = input('Enter url site: ')
+    in_pipeline(user_link)

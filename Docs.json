@@ -1,8 +1,6 @@
-{"blogs":
-  [
-      "https://www.myitaliandiaries.com/my-favourite-things-to-do-in-livorno/",
-      "https://www.myitaliandiaries.com/things-to-do-in-ferrara-europes-first-modern-city/",
-      "https://www.myitaliandiaries.com/easy-day-trips-from-venice-by-train/",
-      "https://www.theblondeabroad.com/best-things-to-do-on-the-amalfi-coast/"
-  ]
+{
+  "https://www.myitaliandiaries.com/my-favourite-things-to-do-in-livorno/": true,
+  "https://www.myitaliandiaries.com/things-to-do-in-ferrara-europes-first-modern-city/": true,
+  "https://www.myitaliandiaries.com/easy-day-trips-from-venice-by-train/": true,
+  "https://www.theblondeabroad.com/best-things-to-do-on-the-amalfi-coast/": true
 }
