@@ -2,33 +2,57 @@ from processor import Processor
 from retriever import Retriever
 from blog_scraper_simple import WebScraper
 import json
+import logging
+
+docs_file = 'Docs.json'
+
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+
+def load_scraped():
+    try:
+        with open('Docs.json', 'r') as f1:
+            return json.load(f1)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+def update_scraped(docs):
+    with open(docs_file, 'w') as f2:
+        json.dump(docs, f2, indent=4)
+
 
 def in_pipeline(url):
 
-    with open('Docs.json', 'w') as f1:
-        scrapped_docs = json.load(f1)
+    scraped = load_scraped()
 
-        exists = url in scrapped_docs
+    if url in scraped:
+        logging.info('Doc already scraped')
+        return
 
-        if not exists:
 
-            scraper = WebScraper()
-            doc = scraper.scrape(url)
+    scraper = WebScraper()
+    doc = scraper.scrape(url)
 
-            print(doc['body'], doc['titles'], None, doc['url'])
+    if not doc or 'body' not in doc or 'titles' not in doc or 'url' not in doc:
+        logging.error("Scraped document is missing required fields.")
+        return
 
-            processor = Processor()
+    logging.info(f"Scraped document: {doc['titles']} from {doc['url']}")
 
-            processor.split_text()
-            processor.transform()
-            processor.insert()
+    processor = Processor()
 
-            scrapped_docs[url] = 'true'
+    processor.split_text()
+    processor.transform()
+    processor.insert()
 
-        else:
-            print('Document already scraped...')
+    scraped[url] = 'true'
+    update_scraped(scraped)
+
+    logging.info("Document processed and stored.")
 
 if __name__ == "__main__":
 
     user_link = input('Enter url site: ')
-    in_pipeline(user_link)
+    if user_link:
+        in_pipeline(user_link)
+    else:
+        logging.warning("No URL provided.")
