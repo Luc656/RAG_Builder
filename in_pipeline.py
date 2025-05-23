@@ -4,13 +4,13 @@ from blog_scraper_simple import WebScraper
 import json
 import logging
 
-docs_file = 'Docs.json'
+docs_file = 'scraped_docs.json'
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 def load_scraped():
     try:
-        with open('Docs.json', 'r') as f1:
+        with open('scraped_docs.json', 'r') as f1:
             return json.load(f1)
     except (FileNotFoundError, json.JSONDecodeError):
         return {}
