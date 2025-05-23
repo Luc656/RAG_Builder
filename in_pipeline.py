@@ -19,6 +19,13 @@ def update_scraped(docs):
     with open(docs_file, 'w') as f2:
         json.dump(docs, f2, indent=4)
 
+def fetch_new(file):
+    try:
+        with open(file, 'w') as f3:
+            return json.load(f3)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
 
 def in_pipeline(url):
 
@@ -51,8 +58,8 @@ def in_pipeline(url):
 
 if __name__ == "__main__":
 
-    user_link = input('Enter url site: ')
-    if user_link:
-        in_pipeline(user_link)
+    to_fetch = fetch_new('new_docs.json')
+    if to_fetch:
+        in_pipeline(to_fetch)
     else:
         logging.warning("No URL provided.")
