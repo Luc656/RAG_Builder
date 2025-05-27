@@ -7,8 +7,9 @@ from processor import Processor
 # make this inherited ???
 class Retriever(Processor):
 
-    def __init__(self, client):
+    def __init__(self, user_query, client):
         self.client = client
+        self.user_query = user_query
         self.results = None
         self.context = None
         super().__init__()
