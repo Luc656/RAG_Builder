@@ -60,6 +60,7 @@ if __name__ == "__main__":
 
     to_fetch = fetch_new('new_docs.json')
     if to_fetch:
-        in_pipeline(to_fetch)
+        for url in to_fetch:
+            in_pipeline(url)
     else:
         logging.warning("No URL provided.")
