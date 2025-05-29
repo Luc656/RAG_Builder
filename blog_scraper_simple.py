@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import time
 
 class WebScraper:
     def __init__(self, user_agent=None):
@@ -13,6 +14,9 @@ class WebScraper:
             })
 
     def scrape(self, url):
+
+        print('sleeping 3 secs')
+        time.sleep(3)
 
         try:
             response = self.session.get(url)

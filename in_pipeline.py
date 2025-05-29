@@ -30,31 +30,40 @@ def fetch_new(file):
 def in_pipeline(url):
 
     scraped = load_scraped()
+    logging.info(f'{scraped} already scraped')
 
-    if url in scraped:
-        logging.info('Doc already scraped')
-        return
+    try:
+
+        if url in scraped:
+            logging.info('Doc already scraped')
+            return
 
 
-    scraper = WebScraper()
-    doc = scraper.scrape(url)
+        scraper = WebScraper()
+        doc = scraper.scrape(url)
+        logging.info('scraping')
 
-    if not doc or 'body' not in doc or 'titles' not in doc or 'url' not in doc:
-        logging.error("Scraped document is missing required fields.")
-        return
+        if not doc or 'body' not in doc or 'titles' not in doc or 'url' not in doc:
+            logging.error("Scraped document is missing required fields.")
+            return
 
-    logging.info(f"Scraped document: {doc['titles']} from {doc['url']}")
+        logging.info(f"Scraped document: {doc['titles']} from {doc['url']}")
 
-    processor = Processor()
+        processor = Processor()
 
-    processor.split_text()
-    processor.transform()
-    processor.insert()
+        processor.split_text()
+        processor.transform()
+        processor.insert()
 
-    scraped[url] = 'true'
-    update_scraped(scraped)
+        scraped[url] = 'true'
+        update_scraped(scraped)
 
-    logging.info("Document processed and stored.")
+        logging.info("Document processed and stored.")
+
+    except Exception as e:
+        logging.info(f'Exception in scraping: {e}')
+
+
 
 if __name__ == "__main__":
 
