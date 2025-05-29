@@ -63,6 +63,7 @@ class Processor:
 
         print('embeds: ', self.embeddings)
 
+    # TODO: check this closes upon failure
     def insert(self):
         # Connect to a local Weaviate instance
         client = weaviate.connect_to_custom(
@@ -75,9 +76,9 @@ class Processor:
             #additional_config=AdditionalConfig(timeout=30)
         )
 
-        # # Ensure doc_body is chunked
-        # if not self.chunks:
-        #     self.chunks = self.chunk_text(self.doc_body)  # You need to implement this
+        # Ensure doc_body is chunked
+        if not self.chunks:
+            self.split_text(self.doc_body)
 
         # Generate embeddings
         self.embeddings = self.embed_model.encode(self.chunks).tolist()
