@@ -66,37 +66,51 @@ class Processor:
     # TODO: check this closes upon failure
     def insert(self):
         # Connect to a local Weaviate instance
-        client = weaviate.connect_to_custom(
-            http_host="localhost",
-            http_port=8080,
-            http_secure=False,  # This is needed
-            grpc_host="localhost",
-            grpc_port=50051,
-            grpc_secure=False,
-            #additional_config=AdditionalConfig(timeout=30)
-        )
 
-        # Ensure doc_body is chunked
-        if not self.chunks:
-            self.split_text(self.doc_body)
+        client = None
 
-        # Generate embeddings
-        self.embeddings = self.embed_model.encode(self.chunks).tolist()
-
-        # Add each chunk
-        for chunk, embedding in zip(self.chunks, self.embeddings):
-            properties = {
-                "text": chunk,
-                "title": self.doc_title,
-                "tags": self.doc_tags,
-                "url": self.doc_url,
-                "source": self.doc_url.split('/')[-1] if self.doc_url else "unknown",
-                "created_at": datetime.now().isoformat()
-            }
-
-            client.collections.get(self.class_name).data.insert(
-                properties=properties,
-                vector=embedding
+        try:
+            client = weaviate.connect_to_custom(
+                http_host="localhost",
+                http_port=8080,
+                http_secure=False,  # This is needed
+                grpc_host="localhost",
+                grpc_port=50051,
+                grpc_secure=False,
+                #additional_config=AdditionalConfig(timeout=30)
             )
 
-        client.close()
+            if not self.embed_model:
+                raise ValueError('Embedding model not initialized.')
+            if not self.doc_body:
+                raise ValueError('Document body is empty.')
+
+            # Ensure doc_body is chunked
+            if not self.chunks:
+                self.split_text(self.doc_body)
+
+            # Generate embeddings
+            self.embeddings = self.embed_model.encode(self.chunks).tolist()
+
+            # Add each chunk
+            for chunk, embedding in zip(self.chunks, self.embeddings):
+                properties = {
+                    "text": chunk,
+                    "title": self.doc_title,
+                    "tags": self.doc_tags,
+                    "url": self.doc_url,
+                    "source": self.doc_url.split('/')[-1] if self.doc_url else "unknown",
+                    "created_at": datetime.now().isoformat()
+                }
+
+                client.collections.get(self.class_name).data.insert(
+                    properties=properties,
+                    vector=embedding
+                )
+
+        except Exception as e:
+            print(f'Error {e} while inserting')
+
+        finally:
+            if client:
+                client.close()
