@@ -51,6 +51,8 @@ def in_pipeline(url):
 
         processor = Processor()
 
+        processor.doc_body = doc
+
         processor.split_text()
         processor.transform()
         processor.insert()
