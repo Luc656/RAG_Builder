@@ -26,7 +26,8 @@ class WebScraper:
 
             titles = [h1.get_text(strip=True) for h1 in soup.find_all('h1')]
 
-            body = [p.get_text(strip=True) for p in soup.find_all('p')]
+            body = [p.get_text(strip=True) for p in soup.find_all('p')
+                    if not p.find_parent('div', id='global-cookie-message')]
 
             return {
                 'titles': titles,
