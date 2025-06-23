@@ -29,6 +29,55 @@ class Processor:
         self.embeddings = None
         self.weaviate_url = weaviate_url
 
+    def chunk_document(self, chunk_size: int = 500,
+                      overlap: int = 50):
+        """
+        Split document into overlapping chunks
+
+        Args:
+            text: Document text
+            chunk_size: Target chunk size in characters
+            overlap: Overlap between chunks
+
+        Returns:
+            List of text chunks
+        """
+
+        if len(self.doc_body) > 1: # body is list of <p> elements, join to 1 string to chunk
+            self.doc_body = ' '.join(self.doc_body)
+
+        # Clean the text
+        text = re.sub(r'\s+', ' ', self.doc_body.strip())
+
+        if len(text) <= chunk_size:
+            return [text]
+
+        chunks = []
+        start = 0
+
+        while start < len(text):
+            end = start + chunk_size
+
+            # Try to break at sentence boundaries
+            if end < len(text):
+                # Look for sentence end within reasonable distance
+                for i in range(min(100, chunk_size // 4)):
+                    if end - i < len(text) and text[end - i] in '.!?':
+                        end = end - i + 1
+                        break
+
+            chunk = text[start:end].strip()
+            if chunk:
+                chunks.append(chunk)
+
+            # Move start position with overlap
+            start = end - overlap
+
+        self.chunks = chunks
+
+        print('chunks: ', self.chunks)
+
+
     # Todo: chunk metadata from blog, index in blog and total in blog
     def chunk_text(self, max_tokens=200):
 
