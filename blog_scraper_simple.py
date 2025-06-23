@@ -41,3 +41,43 @@ class WebScraper:
         except Exception as e:
             print(f"Error during scraping: {e}")
             return {'titles': [], 'body': [], 'url': []}
+
+    def scrape_uk_gov(self, url):
+
+        print('sleeping 3 secs')
+        time.sleep(3)
+
+        try:
+            response = self.session.get(url)
+            response.raise_for_status() # only raised for bad codes
+
+            soup = BeautifulSoup(response.text, 'html.parser')
+
+            title_element = soup.find('h1', class_='gem-c-heading__text govuk-heading-xl')
+            titles = title_element.get_text(strip=True) if title_element else "No title found"
+            #titles = [h1.get_text(strip=True) for h1 in soup.find_all('h1')]
+
+            # body = [p.get_text(strip=True) for p in soup.find_all('p')
+            #         if not p.find_parent('div', id='global-cookie-message')]
+
+            main_element = soup.find('main', {'role': 'main', 'id': 'content'})
+            main_text = ""
+
+            if main_element:
+                # Get all text from main element, preserving some structure
+                main_text = main_element.get_text(separator='\n', strip=True)
+            else:
+                main_text = "Main content not found"
+
+            return {
+                'titles': titles,
+                'body': main_text,
+                'url': url
+            }
+
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching the webpage: {e}")
+            return {'titles': [], 'body': [], 'url': []}
+        except Exception as e:
+            print(f"Error during scraping: {e}")
+            return {'titles': [], 'body': [], 'url': []}

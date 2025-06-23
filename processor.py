@@ -8,7 +8,7 @@ from weaviate.classes.init import AdditionalConfig
 class Processor:
 
     def __init__(self,
-                 # doc_body,
+                 doc_body,
                  # doc_title,
                  # doc_tags,
                  # doc_url,
@@ -17,7 +17,7 @@ class Processor:
                  weaviate_grpc_port=50051,  # Default gRPC port for Weaviate
                  class_name='DocChunk'):
 
-        self.doc_body = None
+        self.doc_body = doc_body
         self.doc_title = None
         self.doc_tags = None
         self.doc_url = None
@@ -30,7 +30,7 @@ class Processor:
         self.weaviate_url = weaviate_url
 
     # Todo: chunk metadata from blog, index in blog and total in blog
-    def split_text(self, max_tokens=200):
+    def chunk_text(self, max_tokens=200):
 
         if len(self.doc_body) > 1: # body is list of <p> elements, join to 1 string to chunk
             self.doc_body = ' '.join(self.doc_body)

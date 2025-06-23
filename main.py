@@ -1,12 +1,9 @@
-from processor import Pipeline
+from processor import Processor
 from blog_scraper_simple import WebScraper
 
 
 blogs = [
-    'https://www.myitaliandiaries.com/my-favourite-things-to-do-in-livorno/',
-    'https://www.myitaliandiaries.com/things-to-do-in-ferrara-europes-first-modern-city/',
-    'https://www.myitaliandiaries.com/easy-day-trips-from-venice-by-train/',
-    'https://www.theblondeabroad.com/best-things-to-do-on-the-amalfi-coast/'
+    "https://www.gov.uk/foreign-travel-advice/mexico"
 ]
 
 if __name__ == '__main__':
@@ -16,10 +13,10 @@ if __name__ == '__main__':
 
     print(doc['body'], doc['titles'], None, doc['url'])
 
-    pipeline = Pipeline(doc['body'], doc['titles'], None, doc['url'])
+    processor = Processor(doc['body'])
 
-    pipeline.split_text()
-    pipeline.transform()
-    pipeline.insert()
+    processor.chunk_text()
+    processor.transform()
+    #pipeline.insert()
 
 
