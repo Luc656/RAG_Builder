@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     processor = Processor(doc['body'])
 
-    processor.chunk_text()
+    processor.chunk_document()
     processor.transform()
     #pipeline.insert()
 
