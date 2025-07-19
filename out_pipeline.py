@@ -28,10 +28,10 @@ def out_pipeline():
 
     retriever.retrieve_chunks()
     retriever.format_context()
-    prompt = retriever.build_prompt()
 
-    message = groq_talk(prompt, api_key)
+    message = retriever.compose_response()
 
     print(message)
+    return message
 
 

@@ -1,6 +1,7 @@
 import weaviate
 from sentence_transformers import SentenceTransformer
 from processor import Processor
+import requests
 
 #pipeline = Processor()
 
@@ -12,6 +13,7 @@ class Retriever(Processor):
         self.user_query = user_query
         self.results = None
         self.context = None
+        self.prompt = None
         super().__init__()
 
     def retrieve_chunks(self, query, k=5, metadata_filter=None):
@@ -46,7 +48,7 @@ class Retriever(Processor):
 
     #@staticmethod
     def build_prompt(self):
-        prompt = f"""
+        self.prompt = f"""
         You are a helpful assistant. Use the context below to answer the question. Answer in terms of travel only.
 
         Context:
@@ -58,6 +60,21 @@ class Retriever(Processor):
 
         Answer:
         """
-        return prompt
+
+    def compose_response(self):
+
+        if not self.prompt:
+            raise ValueError('No prompt present')
+
+        resp = requests.post(
+            'http://localhost:11434/api/generate',
+            json={
+                'model': 'qwen3:4b',
+                'prompt': self.prompt,
+                'stream': False
+            }
+        )
+
+        return resp.json()['response']
 
         # embed user query

@@ -81,3 +81,37 @@ class WebScraper:
         except Exception as e:
             print(f"Error during scraping: {e}")
             return {'titles': [], 'body': [], 'url': []}
+
+    def scrape_uk_gov2(self, url):
+
+        response = self.session.get(url)
+        response.raise_for_status()  # only raised for bad codes
+
+        soup = BeautifulSoup(response.text, 'html.parser')
+        main_element = soup.find('main', {'role': 'main', 'id': 'content'})
+
+        sections = []
+        curr_section = None
+
+        for tag in main_element.children:
+            print(tag.name)
+            if tag.name == 'h3':
+                if curr_section:
+                    sections.append(curr_section)
+                curr_section = {
+                    'header': tag,
+                    'content': []
+                }
+            elif curr_section and tag.name:
+                curr_section['content'].append(tag)
+
+        if curr_section:
+            sections.append(curr_section)
+
+        for section in sections:
+            print(f"Header: {section['header'].text}")
+            print("Content:")
+            for elem in section['content']:
+                print(f" - {elem}")
+            print("----")
+

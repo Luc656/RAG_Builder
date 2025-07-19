@@ -13,10 +13,10 @@ if __name__ == '__main__':
 
     print(doc['body'], doc['titles'], None, doc['url'])
 
-    processor = Processor(doc['body'])
+    #processor = Processor(doc['body'])
 
-    processor.chunk_document()
-    processor.transform()
+    #processor.chunk_document()
+    #processor.transform()
     #pipeline.insert()
 
 
